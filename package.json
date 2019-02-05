@@ -1,0 +1,18 @@
+{
+  "name": "i2wd-workshop",
+  "version": "1.0.0",
+  "description": "Slides for an introduction to web development workshop",
+  "author": "Aaron Russell <russell.aaron94@gmail.com>",
+  "license": "WTFPL",
+  "homepage": "https://github.com/mrnyby/i2wd-workshop#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrnyby/i2wd-workshop.git"
+  },
+  "scripts": {
+    "start": "reveal-md --theme beige $1"
+  },
+  "dependencies": {
+    "reveal-md": "^2.4.1"
+  }
+}
