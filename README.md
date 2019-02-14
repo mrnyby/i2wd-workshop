@@ -4,7 +4,7 @@ This workshop will teach basic web development skills and is intended for those 
 
 ## Table of Contents
 
-* Introduction
+* [Introduction](https://github.com/mrnyby/i2wd-workshop/blob/master/introduction.md)
 * HTML basics
   * HTML documents
   * Common tags
