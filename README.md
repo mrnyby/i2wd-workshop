@@ -18,6 +18,13 @@ This workshop will teach basic web development skills and is intended for those 
   * Inputs
   * Forms
   * Embedded content
+* Advanced CSS
+  * Advanced selectors
+  * Pseudo-classes
+  * Flexbox
+  * Transitions
+  * Transforms
+  * Media queries
 * JavaScript basics
   * Variables
   * Functions
@@ -25,6 +32,7 @@ This workshop will teach basic web development skills and is intended for those 
   * Control flow
 * JavaScript and the Document Object Model (DOM)
   * Querying and modifying the DOM
+  * Events
 * Advanced JavaScript
   * Asynchronous JavaScript
   * Functional operators
