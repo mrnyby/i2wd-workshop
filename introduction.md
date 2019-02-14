@@ -4,8 +4,8 @@
 
 ### Web Browser
 
-* Chrome
-* Firefox
+* [Chrome](https://www.google.com/chrome/)
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 ### Text Editor
 
@@ -30,6 +30,6 @@ Browsers open HTML files located on your PC or, more likely, on a remote server.
 
 ## Different Languages Do Different Things
 
-* __HTML__ (HyperText Markup Language) describes the structure of a webpage. It can tell the browser that an image should be displayed and be followed by a paragraph of text.
-* __CSS__ (Cascading Style Sheets) describes the style of elements on the page. It can tell the browser that an image should have a 1 pixel thick black border, and that the text in a paragraph should be colored `#222222`.
-* __JavaScript__ can make web pages dynamic. It can tell the browser that a paragraph's text should change when an image is clicked.
+* [__HTML__ (HyperText Markup Language)](https://en.wikipedia.org/wiki/HTML) describes the structure of a webpage. It can tell the browser that an image should be displayed and be followed by a paragraph of text.
+* [__CSS__ (Cascading Style Sheets)](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) describes the style of elements on the page. It can tell the browser that an image should have a 1 pixel thick black border, and that the text in a paragraph should be colored `#222222`.
+* [__JavaScript__](https://en.wikipedia.org/wiki/JavaScript) can make web pages dynamic. It can tell the browser that a paragraph's text should change when an image is clicked.
