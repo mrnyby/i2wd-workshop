@@ -20,6 +20,7 @@
 | Element             | Meaning       | Description                                                          |
 | ------------------- | ------------- | -------------------------------------------------------------------- |
 | `<head>`            | Document head | Contains the document's title, styles, scripts, and meta information |
+| `<title>`           | Title         | Defines the document title (what you see up there in your tabs)      |
 | `<body>`            | Document body | Contains the document's contents, such as text, links, and images    |
 | `<h1>`, ..., `<h6>` | Heading 1-6   |                                                                      |
 | `<p>`               | Paragraph     |                                                                      |
@@ -28,6 +29,7 @@
 | `<span>`            | Span          | Groups inline elements                                               |
 | `<strong>`          | Strong        | Defines strong text (defaults to bold)                               |
 | `<em>`              | Emphasis      | Defines emphasized text (defaults to italics)                        |
+| `<img>`             | Image         | Defines an image                                                     |
 
 ## Lists
 
