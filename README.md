@@ -5,35 +5,38 @@ This workshop will teach basic web development skills and is intended for those 
 ## Table of Contents
 
 * [Introduction](https://github.com/mrnyby/i2wd-workshop/blob/master/introduction.md)
+  * [Resources](https://github.com/mrnyby/i2wd-workshop/blob/master/introduction.md#resources)
+  * [How Do Browsers Work?](https://github.com/mrnyby/i2wd-workshop/blob/master/introduction.md#how-do-browsers-work)
+  * [Different Languages Do Different Things](https://github.com/mrnyby/i2wd-workshop/blob/master/introduction.md#different-languages-do-different-things)
 * HTML basics
-  * HTML documents
-  * Common tags
+  * HTML Documents
+  * Common Tags
   * Tables
-* CSS basics
+* CSS Basics
   * Selectors
   * Classes
-  * Common properties
+  * Common Properties
   * Layout
 * Advanced HTML
   * Inputs
   * Forms
-  * Embedded content
+  * Embedded Content
 * Advanced CSS
-  * Advanced selectors
-  * Pseudo-classes
+  * Advanced Selectors
+  * Pseudo-Classes
   * Flexbox
   * Transitions
   * Transforms
-  * Media queries
-* JavaScript basics
+  * Media Queries
+* JavaScript Basics
   * Variables
   * Functions
   * Debugging
-  * Control flow
+  * Control Flow
 * JavaScript and the Document Object Model (DOM)
-  * Querying and modifying the DOM
+  * Querying and Modifying the DOM
   * Events
   * Asynchronous JavaScript
 * Advanced JavaScript
-  * Functional operators
+  * Functional Operators
   * Frameworks
