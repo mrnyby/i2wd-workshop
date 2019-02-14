@@ -4,13 +4,11 @@ This workshop will teach basic web development skills, and is intended for those
 
 ## Table of Contents
 
-Introduction
-
-HTML basics
-* HTML documents
-* Common tags
-* Tables
-
+* Introduction
+* HTML basics
+  * HTML documents
+  * Common tags
+  * Tables
 * CSS basics
   * Selectors
   * Classes
