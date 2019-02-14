@@ -33,4 +33,14 @@
 
 ## Lists
 
+`<ol>` elements define ordered lists
+  1. By default,
+  2. they look
+  3. like this.
+
+`<ul>` elements define unordered lists
+  * By default,
+  * they look
+  * like this.
+
 ## Tables
