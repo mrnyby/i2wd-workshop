@@ -13,7 +13,7 @@ This workshop will teach basic web development skills and is intended for those 
   * Selectors
   * Classes
   * Common properties
-  * Positioning
+  * Layout
 * Advanced HTML
   * Inputs
   * Forms
