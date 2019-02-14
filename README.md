@@ -33,7 +33,7 @@ This workshop will teach basic web development skills and is intended for those 
 * JavaScript and the Document Object Model (DOM)
   * Querying and modifying the DOM
   * Events
-* Advanced JavaScript
   * Asynchronous JavaScript
+* Advanced JavaScript
   * Functional operators
   * Frameworks
