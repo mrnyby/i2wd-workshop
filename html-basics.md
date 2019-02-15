@@ -38,10 +38,7 @@ HTML defines the general layout of a page and gives different pieces of a web pa
 
 ## Lists
 
-`<ol>` elements define ordered lists
-  1. By default,
-  2. they look
-  3. like this.
+`<ol>` elements define ordered lists.
 
 ```
 <ol>
@@ -51,10 +48,7 @@ HTML defines the general layout of a page and gives different pieces of a web pa
 </ol>
 ```
 
-`<ul>` elements define unordered lists
-  * By default,
-  * they look
-  * like this.
+`<ul>` elements define unordered lists.
 
 ```
 <ul>
