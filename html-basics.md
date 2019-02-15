@@ -113,3 +113,5 @@ In both of the above examples, the `<li>` __(list item)__ element is used to def
 | `<tr>`    | Table row         |
 | `<th>`    | Table header cell |
 | `<td>`    | Table data cell   |
+
+HTML tables are great for displaying tabular data in web pages. Historically, tables have also been (ab)used to implement complex layouts where you want different components arranged in rows and columns. Complex layouts are __presentational__ information. Since HTML specializes in conveying __structural__ information, it's almost always better to implement layouts using CSS.
