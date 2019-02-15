@@ -8,10 +8,11 @@ This workshop will teach basic web development skills and is intended for those 
   * [Resources](https://github.com/mrnyby/i2wd-workshop/blob/master/introduction.md#resources)
   * [How Do Browsers Work?](https://github.com/mrnyby/i2wd-workshop/blob/master/introduction.md#how-do-browsers-work)
   * [Different Languages Do Different Things](https://github.com/mrnyby/i2wd-workshop/blob/master/introduction.md#different-languages-do-different-things)
-* HTML basics
-  * HTML Documents
-  * Common Tags
-  * Tables
+* [HTML basics](https://github.com/mrnyby/i2wd-workshop/blob/master/html-basics.md)
+  * [HTML Documents](https://github.com/mrnyby/i2wd-workshop/blob/master/html-basics.md#html-documents)
+  * [Common Elements](https://github.com/mrnyby/i2wd-workshop/blob/master/html-basics.md#common-elements)
+  * [Lists](https://github.com/mrnyby/i2wd-workshop/blob/master/html-basics.md#lists)
+  * [Tables](https://github.com/mrnyby/i2wd-workshop/blob/master/html-basics.md#tables)
 * CSS Basics
   * Selectors
   * Classes
