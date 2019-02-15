@@ -27,7 +27,7 @@ button {
 }
 ```
 
-In the above rule, `button` is the __selector__, everything between `{` and `}` is the __declaration__, `background` is a __property__, and `#444444` is the background property's __value__. This rule tells the browser how to style every `<button>` element. It gives the button a dark background, slightly rounded corners, white text, and a larger font.
+In the above rule, `button` is the __selector__, everything between `{` and `}` is the __declaration__, `background` is a __property__, and `#444444` is the background property's __value__. This rule tells the browser how to style every `<button>` element. It gives buttons a dark background, slightly rounded corners, white text, and a larger font.
 
 ## Selectors
 
