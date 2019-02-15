@@ -35,6 +35,7 @@ HTML defines the general layout of a page and gives different pieces of a web pa
 | `<img>`             | Image           | Defines an image                                                     |
 | `<span>`            | Span            | Groups inline elements                                               |
 | `<strong>`          | Strong          | Defines strong text (defaults to bold)                               |
+| `<button>`          | Button          | Defines a button                                                     |
 | `<!--...-->`        | Comment         | Gets ignored by the browser and is used to comment code              |
 
 ## Attributes
