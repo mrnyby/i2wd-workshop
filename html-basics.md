@@ -36,6 +36,22 @@ HTML defines the general layout of a page and gives different pieces of a web pa
 | `<span>`            | Span            | Groups inline elements                                               |
 | `<strong>`          | Strong          | Defines strong text (defaults to bold)                               |
 
+## Attributes
+
+Attributes are extra information that can be supplied to HTML elements that are always included in the starting tag of the element (`<p>`, __not__ `</p>`). Most of the time, attributes come in __name/value pairs__.
+
+For example, `<a>` tags aren't very useful on their own. Without a page to redirect to, they might as well be plain text. We can use the `href` attributes on anchor elements to define where the link will take the user when it's clicked:
+
+```
+<a href="https://www.warnerbros.com/archive/spacejam/movie/jam.htm">The pinnacle of web design.</a>
+```
+
+It's common for elements to have multiple attributes. If we wanted the browser to show an image but some text in case the image can't be loaded, we could use:
+
+```
+<img src="puppy.jpg" alt="This is a really cute picture. Too bad it failed to load.">
+```
+
 ## Lists
 
 `<ol>` elements define ordered lists.
