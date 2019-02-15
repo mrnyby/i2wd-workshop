@@ -7,8 +7,8 @@ p {
   color: green;
 }
 
-.my-class {
-  font-family: "Comic Sans";
+.border {
+  border: 1px solid black;
 }
 ```
 
@@ -20,7 +20,7 @@ Web browsers only open HTML files, but we can add links to CSS files in our HTML
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="my-styles.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"> 
 </head>
 </html>
@@ -45,9 +45,31 @@ In the above rule, `button` is the __selector__, everything between `{` and `}` 
 
 `button` is an element selector. It tells the browser to apply whatever declaration we supply to all `<button>` elements. Element selectors are often used for high-level site themeing. Using them on small or specific components is risky because you can easily change the style of every occurrence of an element on the page or across the site!
 
+### Class Selectors
+
+Every HTML element supports an optional `class` attribute. Class selectors are similar to ID selectors, except you can use the same class more than once on a page. In many projects, class selectors are you'll work with most often.
+
+```html
+<h2 class="joke">I got kicked out of a karaoke bar for singing "Danger Zone" five times.</h2>
+<p class="punchline">I exceeded my number of Loggins attempts.</p>
+
+<h2 class="joke">I just got back from a tour of the local pickle factory.</h2>
+<p class="punchline">It was a jarring experience. I couldn't dill with it.</p>
+```
+
+```css
+.joke {
+  font-family: "Comic Sans";
+}
+
+.punchline {
+  color: red;
+}
+```
+
 ### ID Selectors
 
-Every HTML element has an optional `id` attribute which can be used to uniquely identify elements on a page. One reason you might use the `id` attribute is to ensure that only one element and nothing else gets a CSS rule applied to it.
+Every HTML element also supports an optional `id` attribute which can be used to uniquely identify elements on a page. One reason you might use the `id` attribute is to ensure that only one element and nothing else gets a CSS rule applied to it.
 
 ```html
 <button id="big-red-button">LAUNCH MISSILES</button>
@@ -59,10 +81,6 @@ Every HTML element has an optional `id` attribute which can be used to uniquely 
   font-size: 50px;
 }
 ```
-
-### Class Selectors
-
-Class selectors are similar to ID selectors, except you can use the same class more than once on a page.
 
 ### Selecting Multiple Elements
 
