@@ -37,7 +37,7 @@ In the above rule, `button` is the __selector__, everything between `{` and `}` 
 
 ### Class Selectors
 
-Every HTML element supports an optional `class` attribute. Class selectors are similar to ID selectors, except you can use the same class more than once on a page. In many projects, class selectors are you'll work with most often.
+Every HTML element supports an optional `class` attribute. In many projects, class selectors are what you'll work with most often.
 
 ```html
 <h2 class="joke">I got kicked out of a karaoke bar for singing "Danger Zone" five times.</h2>
@@ -59,7 +59,7 @@ Every HTML element supports an optional `class` attribute. Class selectors are s
 
 ### ID Selectors
 
-Every HTML element also supports an optional `id` attribute which can be used to uniquely identify elements on a page. One reason you might use the `id` attribute is to ensure that only one element and nothing else gets a CSS rule applied to it.
+Every HTML element also supports an optional `id` attribute which can be used to uniquely identify elements on a page. ID selectors are very similar to class selectors. Whereas a class can appear on a page countless times, there should only be one occurence of any one ID on the page at a time.
 
 ```html
 <button id="big-red-button">LAUNCH MISSILES</button>
@@ -74,14 +74,18 @@ Every HTML element also supports an optional `id` attribute which can be used to
 
 ### Selecting Multiple Elements
 
-If we want our CSS rule to apply to headings in addition to paragraphs, we could copy/paste our rule and change the selector to `h1`. But there's a better way! We can change our selector from `p` to `h1, p`. If we want to make all sizes of headings and paragraphs have green text:
+```css
+p {
+  color: green;
+}
+```
+
+If we want the above CSS rule to apply to headings in addition to paragraphs, we could copy/paste our rule and change the selector to `h1`. But there's a better way! We can change our selector from `p` to `h1, p`. If we want to make all sizes of headings and paragraphs have green text.
 
 ```css
 h1, h2, h3, h4, h5, h6, p {
   color: green;
 }
 ```
-
-## Common Properties
 
 ## Layout
