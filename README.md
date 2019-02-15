@@ -14,11 +14,11 @@ This workshop will teach basic web development skills and is intended for those 
   * [Attributes](https://github.com/mrnyby/i2wd-workshop/blob/master/html-basics.md#attributes)
   * [Lists](https://github.com/mrnyby/i2wd-workshop/blob/master/html-basics.md#lists)
   * [Tables](https://github.com/mrnyby/i2wd-workshop/blob/master/html-basics.md#tables)
-* CSS Basics
-  * Selectors
-  * Classes
-  * Common Properties
-  * Layout
+* [CSS Basics](https://github.com/mrnyby/i2wd-workshop/blob/master/css-basics.md)
+  * [CSS Files](https://github.com/mrnyby/i2wd-workshop/blob/master/css-basics.md#css-files)
+  * [Selectors](https://github.com/mrnyby/i2wd-workshop/blob/master/css-basics.md#selectors)
+  * [Common Properties](https://github.com/mrnyby/i2wd-workshop/blob/master/css-basics.md#common-properties)
+  * [Layout](https://github.com/mrnyby/i2wd-workshop/blob/master/css-basics.md#layout)
 * Advanced HTML
   * Inputs
   * Forms
