@@ -25,7 +25,6 @@ This workshop will teach basic web development skills and is intended for those 
   * Embedded Content
 * Advanced CSS
   * Advanced Selectors
-  * Pseudo-Classes
   * Flexbox
   * Transitions
   * Transforms
