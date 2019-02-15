@@ -50,7 +50,7 @@ For example, `<a>` tags aren't very useful on their own. Without a page to redir
 It's common for elements to have multiple attributes. If we wanted the browser to show an image but some text in case the image can't be loaded, we could use:
 
 ```html
-<img src="puppy.jpg" alt="This is a really cute picture. Too bad it failed to load."/>
+<img src="puppy.jpg" alt="This is a really cute picture. Too bad it failed to load.">
 ```
 
 ## Lists
