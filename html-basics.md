@@ -1,5 +1,7 @@
 # HTML Basics
 
+![https://xkcd.com/1144/](https://imgs.xkcd.com/comics/tags_2x.png "<A>: Like </a>this.&nbsp;")
+
 ## HTML Documents
 
 ```html
