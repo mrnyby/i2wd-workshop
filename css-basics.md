@@ -93,3 +93,40 @@ h1, h2, h3, h4, h5, h6, p {
 __Everything__ is a box. Right click on this text and click `Inspect Element`. In your dev tools, hover your mouse over the `<p>` element that contains this text and notice the box that appears around this paragraph. That highlighted box is this specific `<p>` element and all of the space that it occupies.
 
 Hover over other elements. It's a box. Inspect the round GitHub logo at the top of the screen. Even _that_ is a box. Go to Amazon or Facebook and inspect away. All boxes. Boxes all the way down.
+
+### Display
+
+By default, page elements will be placed on the page in the order that they were declared. Depending on whether elements are __block__ or __inline__, they will appear __below__ or __to the right of__ the preceding element. __Block__ elements always start and end on a __new line__. __Inline__ are just the opposite; they don't have to start or end on a new line.
+
+The `display` CSS property can change the default behavior of elements. For example, `<div>` elements default to `display: block;`. A `<div>` element can be made inline by overwriting the default value in a CSS rule.
+
+```css
+.inline-div {
+  display: inline;
+}
+```
+
+### Float
+
+The `float` property can be used to remove an element from the flow of the page. A simple use case for `float` is getting text to wrap around an image.
+
+```html
+<img class="float-right" src="http://www.pawmygosh.com/wp-content/uploads/2015/02/chubby4-570x596.jpg">
+<p>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+  type specimen book.
+</p>
+```
+
+```css
+.float-right {
+  float: right;
+}
+```
+
+### Borders, Margins, and Padding
+
+* __Padding__ is the space around the __content__ of an element.
+* __Margin__ is the space around the outside of the element.
+* __Borders__ are the lines that sits just outside of the padding.
