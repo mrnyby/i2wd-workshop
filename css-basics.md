@@ -98,7 +98,7 @@ Hover over other elements. It's a box. Inspect the round GitHub logo at the top 
 
 By default, page elements will be placed on the page in the order that they were declared. Depending on whether elements are __block__ or __inline__, they will appear __below__ or __to the right of__ the preceding element. __Block__ elements always start and end on a __new line__. __Inline__ are just the opposite; they don't have to start or end on a new line.
 
-The `display` CSS property can change the default behavior of elements. For example, `<div>` elements default to `display: block;`. A `<div>` element can be made inline by overwriting the default value in a CSS rule.
+The `display` CSS property can change the default behavior of elements. For example, `<div>` elements default to `display: block`. A `<div>` element can be made inline by overwriting the default value in a CSS rule.
 
 ```css
 .inline-div {
@@ -130,3 +130,5 @@ The `float` property can be used to remove an element from the flow of the page.
 * __Padding__ is the space around the __content__ of an element.
 * __Margin__ is the space around the outside of the element.
 * __Borders__ are the lines that sits just outside of the padding.
+
+![Borders, margins, and padding](https://mdn.mozillademos.org/files/9443/box-model.png)
