@@ -35,6 +35,7 @@ HTML defines the general layout of a page and gives different pieces of a web pa
 | `<img>`             | Image           | Defines an image                                                     |
 | `<span>`            | Span            | Groups inline elements                                               |
 | `<strong>`          | Strong          | Defines strong text (defaults to bold)                               |
+| `<!--...-->`        | Comment         | Gets ignored by the browser and is used to comment code              |
 
 ## Attributes
 
@@ -49,7 +50,7 @@ For example, `<a>` tags aren't very useful on their own. Without a page to redir
 It's common for elements to have multiple attributes. If we wanted the browser to show an image but some text in case the image can't be loaded, we could use:
 
 ```
-<img src="puppy.jpg" alt="This is a really cute picture. Too bad it failed to load.">
+<img src="puppy.jpg" alt="This is a really cute picture. Too bad it failed to load."/>
 ```
 
 ## Lists
@@ -81,7 +82,31 @@ In both of the above examples, the `<li>` __(list item)__ element is used to def
 ```
 <table>
   <tr>
-    <th>
+    <th>HTTP Status Code</th>
+    <th>Meaning</th>
+  </tr>
+  <tr>
+    <td>200</td>
+    <td>OK</td>
+  </tr>
+  <tr>
+    <td>404</td>
+    <td>Not found</td>
+  </tr>
+  <tr>
+    <td>418</td>
+    <td>I'm a teapot</td>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>Internal server error>
   </tr>
 </table>
 ```
+
+| Element   | Meaning           |
+| --------- | ----------------- |
+| `<table>` | Table             |
+| `<tr>`    | Table row         |
+| `<th>`    | Table header cell |
+| `<td>`    | Table data cell   |
