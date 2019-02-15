@@ -2,7 +2,7 @@
 
 ## HTML Documents
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,13 +43,13 @@ Attributes are extra information that can be supplied to HTML elements that are 
 
 For example, `<a>` tags aren't very useful on their own. Without a page to redirect to, they might as well be plain text. We can use the `href` attributes on anchor elements to define where the link will take the user when it's clicked:
 
-```
+```html
 <a href="https://www.warnerbros.com/archive/spacejam/movie/jam.htm">The pinnacle of web design.</a>
 ```
 
 It's common for elements to have multiple attributes. If we wanted the browser to show an image but some text in case the image can't be loaded, we could use:
 
-```
+```html
 <img src="puppy.jpg" alt="This is a really cute picture. Too bad it failed to load."/>
 ```
 
@@ -57,7 +57,7 @@ It's common for elements to have multiple attributes. If we wanted the browser t
 
 `<ol>` elements define ordered lists.
 
-```
+```html
 <ol>
   <li>Uno</li>
   <li>Dos</li>
@@ -68,7 +68,7 @@ It's common for elements to have multiple attributes. If we wanted the browser t
 `<ul>` elements define unordered lists.
 
 ```
-<ul>
+<ul>html
   <li>Disorder</li>
   <li>Choas</li>
   <li>Anarchy</li>
@@ -79,7 +79,7 @@ In both of the above examples, the `<li>` __(list item)__ element is used to def
 
 ## Tables
 
-```
+```html
 <table>
   <tr>
     <th>HTTP Status Code</th>
