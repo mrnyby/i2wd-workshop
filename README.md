@@ -29,8 +29,7 @@ This workshop will teach basic web development skills and is intended for those 
   * Flexbox
   * Transitions
   * Transforms
-  * Font Faces
-  * Media Queries
+  * At-Rules: Imports, Font Faces, and Media Queries
 * JavaScript Basics
   * Variables
   * Functions
