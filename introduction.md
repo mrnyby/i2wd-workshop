@@ -24,7 +24,7 @@
 
 ## How Do Browsers Work?
 
-Web browsers are like any program that opens files. Word opens DOCX and InDesign open INDD.
+Web browsers are like any program that opens files. Word opens DOCX and InDesign opens INDD.
 
 Browsers open HTML files located on your PC or, more likely, on a remote server. HTML files can tell the browser to pull in CSS and JavaScript files which are also understood by the browser.
 
