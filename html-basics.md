@@ -70,7 +70,7 @@ It's common for elements to have multiple attributes. If we wanted the browser t
 
 `<ul>` elements define unordered lists.
 
-```
+```html
 <ul>html
   <li>Disorder</li>
   <li>Choas</li>
