@@ -1,5 +1,7 @@
 # Introduction
 
+![https://xkcd.com/934/](https://imgs.xkcd.com/comics/mac_pc.png "It's fun to watch browsers fumblingly recapitulate the history of window management. Someday we'll have xmonad as a Firefox extension.")
+
 ## Resources
 
 ### Web Browser
