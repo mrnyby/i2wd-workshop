@@ -44,7 +44,7 @@ HTML defines the general layout of a page and gives different pieces of a web pa
 
 Attributes are extra information that can be supplied to HTML elements that are always included in the starting tag of the element (`<p>`, __not__ `</p>`). Most of the time, attributes come in __name/value pairs__.
 
-For example, `<a>` tags aren't very useful on their own. Without a page to redirect to, they might as well be plain text. We can use the `href` attributes on anchor elements to define where the link will take the user when it's clicked:
+For example, `<a>` tags aren't very useful on their own. Without a page to redirect to, they might as well be plain text. We can use the `href` attributes on anchor elements to define where the link will take the user when it's clicked.
 
 ```html
 <a href="https://www.warnerbros.com/archive/spacejam/movie/jam.htm">The pinnacle of web design.</a>
