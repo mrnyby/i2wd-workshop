@@ -25,4 +25,16 @@ We use the `<input>` element use to collect some kind of input from users. After
 
 ## Forms
 
+```html
+<form action="https://www.oh.no/add-user" method="POST">
+  <input name="email" placeholder="Email" type="email">
+  <input name="password" placeholder="Password" type="password">
+  <input type="submit" value="Register">
+</form>
+```
+
+Above is a new user registration form. The `<form>` element has two attributes: `action` and `method`. The `action` attribute tells the browser what URL to send information to when the usert clicks the "Register" button. The `method` attribute indicates which __HTTP method__ to use when sending the form's information. Using `POST` as our method will place the email and password in the HTTP request's __body__. Alternatively, we could use `GET` which would tell the browser to send the information through URL __query parameters__: `https://www.oh.no/add-user?email=anyone@anymail.com&password=blueberry1`.
+
+### Form Validation
+
 ## Embedded Content
