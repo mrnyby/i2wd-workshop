@@ -10,7 +10,7 @@
 <input type="range">
 ```
 
-We use the `<input>` element use to collect some kind of input from users. After filling out an input with data, users typically see something in the page change or have a chance to submit information to a server. Oftentimes, `<input>` elements look like text boxes, but this element can handle more complex input as well. Understanding all of the valid values for its `type` attribute can save you thousands of lines of JavaScript.
+We use the `<input>` element use to collect some kind of input from users. After filling out an input with data, users typically see something in the page change or have a chance to submit information to a server. Oftentimes, `<input>` elements look like text boxes, but this element can handle more complex input as well. Understanding all of the valid values for its `type` attribute can save you tons of work creating custom inputs.
 
 * Checkbox
 * Color
@@ -34,6 +34,8 @@ We use the `<input>` element use to collect some kind of input from users. After
 ```
 
 Above is a new user registration form. The `<form>` element has two attributes: `action` and `method`. The `action` attribute tells the browser what URL to send information to when the usert clicks the "Register" button. The `method` attribute indicates which __HTTP method__ to use when sending the form's information. Using `POST` as our method will place the email and password in the HTTP request's __body__. Alternatively, we could use `GET` which would tell the browser to send the information through URL __query parameters__: `https://www.oh.no/add-user?email=anyone@anymail.com&password=blueberry1`.
+
+The `name` attribute of the email and password `<input>` elements tells the browser what to call each bit of data. `name="email"` tells the browser to call whatever gets typed into that input box "email."
 
 ### Form Validation
 
