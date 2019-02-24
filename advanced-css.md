@@ -88,6 +88,8 @@ button.primary:hover {
 }
 ```
 
+This extends the previous example to make our buttons a little more exciting. When a mouse hovers over either of our buttons the more specific `:hover` rules get applied to each of our buttons and make their `background-color` a bit darker.
+
 ## Transforms
 
 ## Flexbox
