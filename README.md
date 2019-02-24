@@ -19,10 +19,10 @@ This workshop will teach basic web development skills and is intended for those 
   * [Rules](https://github.com/mrnyby/i2wd-workshop/blob/master/css-basics.md#rules)
   * [Selectors](https://github.com/mrnyby/i2wd-workshop/blob/master/css-basics.md#selectors)
   * [Layout](https://github.com/mrnyby/i2wd-workshop/blob/master/css-basics.md#layout)
-* Advanced HTML
-  * Inputs
-  * Forms
-  * Embedded Content
+* [Advanced HTML](https://github.com/mrnyby/i2wd-workshop/blob/master/advanced-html.md)
+  * [Inputs](https://github.com/mrnyby/i2wd-workshop/blob/master/advanced-html.md#inputs)
+  * [Forms](https://github.com/mrnyby/i2wd-workshop/blob/master/advanced-html.md#forms)
+  * [Embedded Content](https://github.com/mrnyby/i2wd-workshop/blob/master/advanced-html.md#embedded-content)
 * Advanced CSS
   * Advanced Selectors
   * Flexbox
