@@ -33,7 +33,9 @@ We use the `<input>` element use to collect some kind of input from users. After
 </form>
 ```
 
-Above is a new user registration form. The `<form>` element has two attributes: `action` and `method`. The `action` attribute tells the browser what URL to send information to when the usert clicks the "Register" button. The `method` attribute indicates which __HTTP method__ to use when sending the form's information. Using `POST` as our method will place the email and password in the HTTP request's __body__. Alternatively, we could use `GET` which would tell the browser to send the information through URL __query parameters__: `https://www.oh.no/add-user?email=anyone@anymail.com&password=blueberry1`.
+Above is a new user registration form. The `<form>` element has two attributes: `action` and `method`. The `action` attribute tells the browser what URL to send information to when the usert clicks the "Register" button. The `method` attribute indicates which __HTTP method__ to use when sending the form's information.
+
+Using `POST` as our method will place the email and password in the HTTP request's __body__. Alternatively, we could use `GET` which would tell the browser to send the information through URL __query parameters__: `https://www.oh.no/add-user?email=anyone@anymail.com&password=blueberry1`. For a form like this, using `POST` is a better idea because then the user's password won't ever be visible in their browser's address bar or history.
 
 The `name` attribute of the email and password `<input>` elements tells the browser what to call each bit of data. `name="email"` tells the browser to call whatever gets typed into that input box "email."
 
