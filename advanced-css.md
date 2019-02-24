@@ -1,6 +1,6 @@
 # Advanced CSS
 
-Modern CSS is extremely powerful. Through its more advanced features, CSS makes otherwise static pages more dynaic. It can give users feedback when they are filling out forms, animate elements, and handle complex layouts.
+Modern CSS is extremely powerful. Through its more advanced features, CSS makes otherwise static pages more dynamic. It can give users feedback when they are filling out forms, animate elements, and handle complex layouts.
 
 ## Advanced Selectors
 
