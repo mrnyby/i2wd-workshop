@@ -41,4 +41,16 @@ The `name` attribute of the email and password `<input>` elements tells the brow
 
 ### Form Validation
 
+```html
+<form action="https://www.oh.no/add-user" method="POST">
+  <input name="email" placeholder="Email" required type="email">
+  <input name="password" placeholder="Password" required type="password">
+  <input type="submit" value="Register">
+</form>
+```
+
+HTML 5 has powerful validation built in to its forms. For example, the `required` attribute on any `<input>` element tells the browser that an input needs to be filled out for a form to be valid. As we'll learn later, CSS can style forms differently when they're in an error state. JavaScript can add more complex validation, disable submission buttons when a form is invalid, and more.
+
+Other helpful form validation attributes include `minlength`, `maxlength`, and `pattern`.
+
 ## Embedded Content
