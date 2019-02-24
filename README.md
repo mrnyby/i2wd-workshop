@@ -1,6 +1,6 @@
 # Introduction to Web Development
 
-This workshop will teach basic web development skills and is intended for those who have little to no experience with programming.
+This workshop will teach basic web development skills and is intended for those who have little to no programming experience.
 
 ## Table of Contents
 
