@@ -56,3 +56,17 @@ As we'll learn later, CSS can style forms differently when they're in an error s
 Other helpful form validation attributes include `minlength`, `maxlength`, and `pattern`.
 
 ## Embedded Content
+
+```html
+<video src="fluffy-kitty.mp4" controls></video>
+```
+
+```html
+<audio src="never-gonna-give-you-up.mp3" autoplay loop>What is this, IE8?</audio>
+```
+
+```html
+<canvas id="draw-on-me" height="400" width="600"></canvas>
+```
+
+Embedding multimedia in a web page is easier than ever with HTML 5. Similar to the `<img>` element, HTML has elements for video, audio, and canvases. Canvases can be drawn to by JavaScript to dynamic images like animated charts or game sprites. All of these elements allow developers to define fall-back content between tags that will be displayed to any users running old browsers.
