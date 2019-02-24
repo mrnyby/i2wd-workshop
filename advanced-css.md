@@ -66,7 +66,7 @@ The `button.primary` and `button.primary:hover` rules define what primary button
 
 This example introduces the important CSS concepts of __inheritance__ and __specificity__. When multiple rules can apply to an element, both get applied. When properties in those rules do not conflict, the more specific rule __inherits__ properties from the less specific rule. When properties in those rules conflict, the properties defined in the more specific rule win out.
 
-Looking closer at our save button, we see that the `button` rules says that the button should have `background-color: #EEEEEE` and `border-radius: 2px`. However, the more specific `button.primary` rule also applies. Since it's more specific, the save button gets `background-color: rgba(46, 204, 113, .8)`. Since `button.primary` doesn't define its own `border-radius`, it __inherits__ `border-radius: 2px` from the `button` rule.
+Looking closer at the save button, notice that the `button` rules says that the button should have `background-color: #EEEEEE` and `border-radius: 2px`. However, the more specific `button.primary` rule also applies to the save button. Since this rule is more specific, the save button gets `background-color: rgba(46, 204, 113, .8)`. Since `button.primary` doesn't define its own `border-radius`, it __inherits__ `border-radius: 2px` from the `button` rule.
 
 ## Transforms
 
