@@ -1,5 +1,7 @@
 # CSS Basics
 
+[__CSS__ (Cascading Style Sheets)](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) describes the style of elements on the page.
+
 ## CSS Files
 
 CSS (Cascading Style Sheets) describes the __style__ of web pages through a set of rules. Each rule declares what elements it gets applied to with its __selector__ and describes the style of that element with its __properties__.
