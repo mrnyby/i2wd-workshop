@@ -49,7 +49,9 @@ The `name` attribute of the email and password `<input>` elements tells the brow
 </form>
 ```
 
-HTML 5 has powerful validation built in to its forms. For example, the `required` attribute on any `<input>` element tells the browser that an input needs to be filled out for a form to be valid. As we'll learn later, CSS can style forms differently when they're in an error state. JavaScript can add more complex validation, disable submission buttons when a form is invalid, and more.
+HTML 5 has powerful validation built in to its forms. For example, the `required` attribute on any `<input>` element tells the browser that an input needs to be filled out for a form to be valid. Just using `type="email"` on an input will flag our input and the entire form as being invalid if a user doesn't enter a valid email address.
+
+As we'll learn later, CSS can style forms differently when they're in an error state. JavaScript can add more complex validation, disable submission buttons when a form is invalid, and more.
 
 Other helpful form validation attributes include `minlength`, `maxlength`, and `pattern`.
 
