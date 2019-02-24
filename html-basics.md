@@ -2,6 +2,8 @@
 
 ![https://xkcd.com/1144/](https://imgs.xkcd.com/comics/tags_2x.png "<A>: Like </a>this.&nbsp;")
 
+[__HTML__ (HyperText Markup Language)](https://en.wikipedia.org/wiki/HTML) describes the structure of a webpage.
+
 ## HTML Documents
 
 ```html
