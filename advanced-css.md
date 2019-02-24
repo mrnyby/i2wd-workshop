@@ -69,8 +69,7 @@ button {
   text-transform: uppercase;
 
   /**
-   * Any time the background-color or box-shadow properties change on an element with class="button-primary", animate
-   * that change over 0.2 seconds.
+   * Any time the background-color property changes on a <button>, animate that change over 0.2 seconds.
    */
   transition: background-color .3s;
 }
