@@ -69,7 +69,7 @@ button {
   text-transform: uppercase;
 
   /**
-   * Any time the background-color property changes on a <button>, animate that change over 0.2 seconds.
+   * Any time the background-color property changes on a <button>, animate that change over 0.3 seconds.
    */
   transition: background-color .3s;
 }
