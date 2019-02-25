@@ -92,6 +92,28 @@ This extends the previous example to make our buttons a little more exciting. Wh
 
 ## Transforms
 
+CSS transforms can modify the shape and position of elements without affecting the normal flow of the page.
+
+```html
+<img class="rotate" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/730px-CSS.3.svg.png" height="200">
+<img class="skew" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/730px-CSS.3.svg.png" height="200">
+<img class="scale" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/730px-CSS.3.svg.png" height="200">
+```
+
+```css
+.rotate {
+  transform: rotate(30deg);
+}
+
+.skew {
+  transform: skewY(30deg);
+}
+
+.scale {
+  transform: scaleX(1.5);
+}
+```
+
 ## Flexbox
 
 ## At-Rules
