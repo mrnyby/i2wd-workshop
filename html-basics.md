@@ -9,14 +9,17 @@
 ```html
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>HTML Basics</title>
   <meta charset="UTF-8">
 </head>
+
 <body>
   <h1>I am a Big and Bold Heading</h1>
   <p>I am but a simple paragraph.</p>
 </body>
+
 </html>
 ```
 
