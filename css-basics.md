@@ -134,3 +134,20 @@ The `float` property can be used to remove an element from the flow of the page.
 * __Borders__ are the lines that sits just outside of the padding.
 
 ![Borders, margins, and padding](https://mdn.mozillademos.org/files/9443/box-model.png)
+
+## Shorthand Properties
+
+Many common CSS properties have shorthand versions. Both of the below rules give an element a `10px` top margin, a `20px` right margin, a `30px` bottom margin, and a `15px` left margin.
+
+```css
+.so-tedious {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.fancy {
+  margin: 10px 20px 30px 15px;
+}
+```
