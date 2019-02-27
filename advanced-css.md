@@ -163,7 +163,7 @@ Although the example above doesn't specify this, our flex container has a defaul
 }
 ```
 
-### Wrapping
+### Flex Wrapping
 
 In many grid-based designs seen in apps like Spotify or Netflix, there is a list of items that rearrange themselves as the screen grows and shrinks. This can be achieved with the `flex-wrap` property.
 
@@ -187,6 +187,54 @@ The `flex-flow` property can be used to define both `flex-direction` and `flex-w
 
 ### Imports
 
+`@import` CSS rules can be used to load additional CSS files. There isn't a huge advantage to using this over an addional `<link>` in your HTML files.
+
+```css
+@import 'bootstrap.min.css';
+```
+
 ### Font Faces
+
+`@font-face` rules lets developers define custom font families by providing a font name and the associated font files. By providing multiple font formats and files, developers can ensure their font will work across multiple browsers.
+
+```css
+@font-face {
+  font-family: 'Comedic Sans';
+  src: url('comedic-sans.woff2') format('woff2'),
+       url('comedic-sans.woff') format('woff);
+}
+```
+
+### Keyframes
+
+Keyframes are similar to transitions, but are better suited for certain types of animations. Unlike transitions, `@keyframes` rules grant the ability to animate an element at all times rather than when the element is active or being hovered over.
+
+```html
+<div class="advertisement">Hey! Look at me!</div>
+```
+
+```css
+@keyframes annoying {
+  0%, 100% {
+    color: red;
+    font-size: 20px;
+  }
+
+  33% {
+    color: green;
+    font-size: 30px;
+  }
+
+  66% {
+    color: blue;
+    font-size: 30px;
+  }
+}
+
+.advertisement {
+  animation: annoying 1s infinite;
+  font-weight: bold;
+}
+```
 
 ### Media Queries
