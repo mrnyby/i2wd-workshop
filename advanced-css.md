@@ -201,7 +201,7 @@ The `flex-flow` property can be used to define both `flex-direction` and `flex-w
 @font-face {
   font-family: 'Comedic Sans';
   src: url('comedic-sans.woff2') format('woff2'),
-       url('comedic-sans.woff') format('woff);
+       url('comedic-sans.woff') format('woff');
 }
 ```
 
