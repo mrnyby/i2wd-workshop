@@ -116,6 +116,42 @@ CSS transforms can modify the shape and position of elements without affecting t
 
 ## Flexbox
 
+Flexbox is a relatively new CSS feature that is great for responsive designs. It makes scaling, ordering, and aligning web page components a breeze.
+
+```html
+<div class="box">
+  <div class="red">Short</div>
+  <div class="green">Small</div>
+  <div class="blue">
+    But<br>
+    I<br>
+    am<br>
+    extra<br>
+    tall
+  </div>
+</div>
+```
+
+```css
+.box {
+  display: flex;
+}
+
+.red {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.green {
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+.blue {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+```
+
+Notice that each of the three child divs have equal height and that they are only as tall as the tallest of the three divs. Without Flex, layouts like this can be tricky to achieve.
+
 ## At-Rules
 
 ### Imports
