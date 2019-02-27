@@ -19,6 +19,7 @@ This workshop will teach basic web development skills and is intended for those 
   * [Rules](https://github.com/mrnyby/iwd-workshop/blob/master/css-basics.md#rules)
   * [Selectors](https://github.com/mrnyby/iwd-workshop/blob/master/css-basics.md#selectors)
   * [Layout](https://github.com/mrnyby/iwd-workshop/blob/master/css-basics.md#layout)
+  * [Shorthand Properties](https://github.com/mrnyby/iwd-workshop/blob/master/css-basics.md#shorthand-properties)
 * [Advanced HTML](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-html.md)
   * [Inputs](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-html.md#inputs)
   * [Forms](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-html.md#forms)
