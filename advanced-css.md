@@ -119,7 +119,7 @@ CSS transforms can modify the shape and position of elements without affecting t
 Flexbox is a relatively new CSS feature that is great for responsive designs. It makes scaling, ordering, and aligning web page components a breeze.
 
 ```html
-<div class="box">
+<div class="flex-container">
   <div class="red">Short</div>
   <div class="green">Small</div>
   <div class="blue">
@@ -133,7 +133,7 @@ Flexbox is a relatively new CSS feature that is great for responsive designs. It
 ```
 
 ```css
-.box {
+.flex-container {
   display: flex;
 }
 
@@ -150,7 +150,38 @@ Flexbox is a relatively new CSS feature that is great for responsive designs. It
 }
 ```
 
-Notice that each of the three child divs have equal height and that they are only as tall as the tallest of the three divs. Without Flex, layouts like this can be tricky to achieve.
+Notice that each of the three child divs have equal height and that they are only as tall as the tallest of the three divs. Without flex, layouts like this can be tricky to achieve.
+
+### Flex Direction
+
+Although the example above doesn't specify this, our flex container has a default `flex-direction` of `row`. We can tell our flex container to order its contents in a different why by specifying a `flex-direction` of `column`, `row-reverse`, or `column-reverse`.
+
+```css
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+```
+
+### Wrapping
+
+In many grid-based designs seen in apps like Spotify or Netflix, there is a list of items that rearrange themselves as the screen grows and shrinks. This can be achieved with the `flex-wrap` property.
+
+```css
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+```
+
+The `flex-flow` property can be used to define both `flex-direction` and `flex-wrap` in a single property.
+
+```css
+.flex-container {
+  display: flex;
+  flex-flow: row-reverse wrap;
+}
+```
 
 ## At-Rules
 
