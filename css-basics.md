@@ -131,7 +131,7 @@ The `float` property can be used to remove an element from the flow of the page.
 
 * __Padding__ is the space around the __content__ of an element.
 * __Margin__ is the space around the outside of the element.
-* __Borders__ are the lines that sits just outside of the padding.
+* __Borders__ are the lines that sit just outside of the padding.
 
 ![Borders, margins, and padding](https://mdn.mozillademos.org/files/9443/box-model.png)
 
