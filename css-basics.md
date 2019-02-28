@@ -124,6 +124,29 @@ The `float` property can be used to remove an element from the flow of the page.
 }
 ```
 
+### Position
+
+`position` specifies how the element gets positioned on the page. Once declaring what type of positioning an element has, the `top`, `bottom`, `left`, and `right` properties can control where it ends up on the page.
+
+```css
+.indent {
+  position: relative;
+  left: 5px;
+}
+```
+
+Using `position: relative` allows us to adjust the position that the element otherwise would have had. In the above example, an element with `class="indent"` will appear exactly where it would have before, but shifted slightly to the right.
+
+```css
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+```
+
+Using `position: absolute` let's us place an element on the page regardless of where it or any other elements might be. The above example would position an element exactly 20 pixels from the bottom right of the window.
+
 ### Borders, Margins, and Padding
 
 * __Padding__ is the space around the __content__ of an element.
