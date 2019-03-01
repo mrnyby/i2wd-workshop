@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 __Everything__ is a box. Right click on this text and click `Inspect Element`. In your dev tools, hover your mouse over the `<p>` element that contains this text and notice the box that appears around this paragraph. That highlighted box is this specific `<p>` element and all of the space that it occupies.
 
-Hover over other elements. It's a box. Inspect the round GitHub logo at the top of the screen. Even _that_ is a box. Go to Amazon or Facebook and inspect away. All boxes. Boxes all the way down.
+Hover over other elements. It's a box. Inspect the round GitHub logo at the top of the screen. Even _that_ is a box.
 
 ### Display
 
