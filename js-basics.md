@@ -4,7 +4,7 @@ Unlike HTML and CSS, JavaScript is a true __programming language__. Like many ot
 
 ## Types
 
-Like any programming language, JavaScript has a set of __types__ used to describe all of the __variables__ or data flowing through your program. Unlike statically typed languages like C or Java, developers don't need to explicitly tell JavaScript the type of a variable.
+Like any programming language, JavaScript has a set of __types__ used to describe all of the __variables__ or data flowing through your program. Unlike statically typed languages like C or Java, developers don't need to explicitly tell JavaScript the type of a variable. To put it in technical terms, JavaScript is __dynamically typed__ rather than __statically typed__.
 
 Below is a list of __variable declarations__ demonstrating JavaScript's basic variable types. To the left of the `=` is the variable __name__, to the right is the variable __value__.
 
