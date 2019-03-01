@@ -1,5 +1,17 @@
 # JavaScript Basics
 
+```html
+<head>
+  <script src="script.js"></script>
+  <script>
+    var x = 4;
+    console.log(x);
+  </script>
+</head>
+```
+
+Just like we did with CSS files, we can bring include JavaScript files on our web page by adding a link to our HTML document's header.
+
 Unlike HTML and CSS, JavaScript is a __programming language__. Like many other programming languages, JavaScript is __Turing complete__; JavaScript scripts or programs can do any possible computational task. JavaScript is one of the most prevalent programming languages in modern software development.
 
 ## Types
@@ -37,6 +49,42 @@ var fun = function () {
 };
 ```
 
+### Arrays
+
+Arrays store __collections__ or __lists__ of data and are __numerically indexed__. In other words, array elements are each assigned some number, starting from 0.
+
+```js
+var superheroes = ['Spiderman', 'Iron Man', 'Thor', 'Captain Marvel'];
+var mostHandsome = superheroes[2];  // 'Thor'
+```
+
+Each array has a `length` __property__ as well as __methods__ or __functions__.
+
+```js
+var superheroes = ['Spiderman', 'Iron Man', 'Thor', 'Captain Marvel'];
+superheroes.length;              // 4
+superheroes.reverse();           // Reverses the order of elements in the array
+var firstHero = superheroes[0];  // 'Captain Marvel'
+```
+
+### Objects
+
+Objects are variables that store __key-value pairs__. They are extremely versatile and used to group related data, and there are similar data structures in most other languages.
+
+```js
+var book = {
+  title: 'The Fellowship of the Ring',
+  author: 'J. R. R. Tolkien',
+  publicationYear: 1954,
+};
+
+var bookTitle = book.title;
+var bookAuthor = book['author'];
+
+var key = 'publicationYear';
+var bookPublicationYear = book[key];
+```
+
 ## Operators
 
 After declaring variables, we can change the values stored in them using __operators__. We've already put `=` (the __assignment operator__) to use above.
@@ -61,6 +109,13 @@ var hello = 'Hello, ' + 'world.';  // 'Hello, world.'
 
 // %
 8 % 3                              // 2
+
+// Shorthand
+var i;
+i++;                               // i = i + 1;
+i--;                               // i = i - 1;
+i += 2;                            // i = i + 2;
+i *= 4;                            // i = i * 4;
 ```
 
 ### Logical Operators
@@ -107,3 +162,57 @@ true == ![]              // true... wait what?
 ```
 
 Confused? The `===` operator checks for equal __value__ as well as equal __type__, so is often safer to use. `==` only checks for equal value __after converting types__.
+
+## Control Flow
+
+### If and Else
+
+```js
+var animal = 'dog';
+var sound;
+
+if (animal === 'cat') {
+  sound = 'meow';
+} else if (animal === 'dog') {
+  sound = 'woof';
+} else {
+  sound = 'moo?';
+}
+```
+
+### While Loops
+
+While loops run some block of code repeatedly until the given __condition__ evaluates to false.
+
+```js
+while (true) {
+  // Turn computer into a space heater
+}
+```
+
+```js
+var i = 0;
+while (i < 10) {
+  console.log(i);
+  i++;
+}
+```
+
+### For Loops
+
+For loops are just as powerful as while loops, but can be nicer to read in situations that you want to __iterate__ over something. Both of the below loops do exactly the same thing.
+
+```js
+var browsers = ['Chrome', 'Firefox', 'Edge', 'Safari'];
+for (var i = 0; i < browsers.length; i++) {
+  console.log(browsers[i]);
+}
+```
+
+```js
+var i = 0;
+while (i < browsers.length) {
+  console.log(browsers[i];
+  i++;
+}
+```
