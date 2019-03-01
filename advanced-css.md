@@ -238,7 +238,7 @@ button {
   font-size: 24px;
 }
 
-/* On screens that are 800px or less, make the button font smaller. */
+/* On screens that are 800px or narrower, make the button font smaller. */
 @media screen and (max-width: 800px) {
   button {
     font-size: 16px;
