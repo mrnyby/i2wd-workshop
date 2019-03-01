@@ -6,11 +6,28 @@ Unlike HTML and CSS, JavaScript is a true __programming language__. Like many ot
 
 Like any programming language, JavaScript has a set of __types__ used to describe all of the __variables__ or data flowing through your program. Unlike statically typed languages like C or Java, developers don't need to explicitly tell JavaScript the type of a variable.
 
+Below is a list of __variable declarations__ demonstrating JavaScript's basic variable types.
+
 ```js
-var yes = true;             // Boolean
-var no = false;             // Boolean
-var whole = 4;              // Number
-var decimal = 3.5;          // Number
-var str = 'Hello, world!';  // String
-var character = 'X';        // String
+// Booleans
+var yes = true;
+var no = false;
+
+// Numbers
+var whole = 4;
+var decimal = 3.5;
+
+// Strings
+var hello = 'Hello, world.';
+var hola = "Hola Mundo.";
+var character = 'X';
+
+// Arrays
+var emptyArray = [];
+var numbers = [1, 2, 3, 4];
+var fruits = ['apple', 'banana', 'orange'];
+
+// Objects
+var emptyObject = {};
+var user = { firstName: 'Ghee', lastName: 'Buttersnaps', age: 32 };
 ```
