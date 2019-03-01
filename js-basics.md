@@ -75,7 +75,7 @@ var hello = 'Hello, ' + 'world.';  // 'Hello, world.'
 1 > 2                         // false
 5 < 10                        // true
 4 <= 4                        // true
-3 >= 2                        // false
+2 >= 3                        // false
 
 // && (AND), || (OR), ! (NOT)
 true && true                  // true
