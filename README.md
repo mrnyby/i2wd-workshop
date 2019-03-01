@@ -24,12 +24,13 @@ This workshop will teach basic web development skills and is intended for those 
   * [Inputs](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-html.md#inputs)
   * [Forms](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-html.md#forms)
   * [Embedded Content](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-html.md#embedded-content)
-* Advanced CSS
-  * Advanced Selectors
-  * Flexbox
-  * Transitions
-  * Transforms
-  * At-Rules: Imports, Font Faces, and Media Queries
+* [Advanced CSS](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md)
+  * [Advanced Selectors](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#advanced-selectors)
+  * [Specificity](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#specificity)
+  * [Transitions](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#transitions)
+  * [Transforms](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#transforms)
+  * [Flexbox](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#flexbox)
+  * [At-Rules](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#at-rules): Font Faces, Keyframes, and Media Queries
 * JavaScript Basics
   * Variables
   * Functions
