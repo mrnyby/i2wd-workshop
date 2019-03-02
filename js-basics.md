@@ -233,4 +233,28 @@ Above, we declare a new function named `add`. It takes in two __arguments__ or _
 
 ### Recursion
 
+Recursion is a programming concept that describes the ability of a function to __call itself__. Recursion is conceptually similar to and just as powerful as __ieration__ (or looping), but can result in more readable code depending on the problem you are trying to solve.
+
 > To understand recursion, you must first understand recursion.
+
+A classic software development interview problem is to write a function that can find the nth number in the [Fibonnaci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) __iteratively__, then do the same thing but __recursively__.
+
+```js
+function iterativeFibonacci(n) {
+  if (n < 0) {
+    return;
+  } else if (n < 2) {
+    return n;
+  }
+
+  var f1 = 0;
+  var f2 = 1;
+
+  for (var i = 2; i < n; i++) {
+    f2 = f1 + f2;
+    f1 = f2 - f1;
+  }
+
+  return f1 + f2;
+}
+```
