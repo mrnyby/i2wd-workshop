@@ -1,5 +1,7 @@
 # JavaScript Basics
 
+Unlike HTML and CSS, JavaScript is a __programming language__. Like many other programming languages, JavaScript is __Turing complete__; JavaScript scripts or programs can do any possible computational task. JavaScript is one of the most prevalent programming languages in modern software development.
+
 ```html
 <head>
   <script src="script.js"></script>
@@ -11,8 +13,6 @@
 ```
 
 Just like we did with CSS files, we can bring include JavaScript files on our web page by adding a link to our HTML document's header.
-
-Unlike HTML and CSS, JavaScript is a __programming language__. Like many other programming languages, JavaScript is __Turing complete__; JavaScript scripts or programs can do any possible computational task. JavaScript is one of the most prevalent programming languages in modern software development.
 
 ## Variables and Types
 
