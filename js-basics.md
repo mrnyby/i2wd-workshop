@@ -61,10 +61,11 @@ var mostHandsome = superheroes[2];  // 'Thor'
 Each array has a `length` __property__ as well as __methods__ or __functions__.
 
 ```js
-var superheroes = ['Spiderman', 'Iron Man', 'Thor', 'Captain Marvel'];
-superheroes.length;              // 4
-superheroes.reverse();           // Reverses the order of elements in the array
-var firstHero = superheroes[0];  // 'Captain Marvel'
+var avengers = ['Iron Man', 'Thor', 'Captain America'];
+avengers.length;                      // 3
+var handsomestAvenger = avengers[1];  // Thor
+avengers.reverse();                   // Reverse the order of elements in the array
+var firstAvenger = avengers[0];       // 'Captain America'
 ```
 
 ### Objects
