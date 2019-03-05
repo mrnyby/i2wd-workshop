@@ -13,9 +13,9 @@ Modern CSS is extremely powerful. Through its more advanced features, CSS makes 
 | `[attribute]`            | `[target]`          | Selects all elements with the `target` attribute                              |
 | `[attribute = value]`    | `[target = _blank]` | Selects all elements with the `target` attribute having a value of `_blank`   |
 | `::after` and `::before` | `p::after`          | Insert something after the content in each `<p>` element                      |
-| `:disabled`              | `input:disabled`    | Selects every disabled `<input>` element`                                     |
+| `:disabled`              | `input:disabled`    | Selects every disabled `<input>` element                                      |
 | `:hover`                 | `button:hover`      | Selects `<button>` elements that are being moused over                        |
-| `:valid`                 | `input:valid`       | Selects all `<input>` elements with a valid value                             |
+| `:valid`  and `:invalid` | `input:invalid`     | Selects all `<input>` elements with an invalid value                          |
 
 ## Specificity
 
