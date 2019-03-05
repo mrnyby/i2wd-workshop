@@ -14,7 +14,7 @@ Just like we did with CSS files, we can bring include JavaScript files on our we
 
 Unlike HTML and CSS, JavaScript is a __programming language__. Like many other programming languages, JavaScript is __Turing complete__; JavaScript scripts or programs can do any possible computational task. JavaScript is one of the most prevalent programming languages in modern software development.
 
-## Types
+## Variables and Types
 
 Like any programming language, JavaScript has a set of __types__ used to describe all of the __variables__ or data flowing through your program. Unlike statically typed languages like C or Java, developers don't need to explicitly tell JavaScript the type of a variable. To put it in technical terms, JavaScript is __dynamically typed__ rather than __statically typed__.
 
