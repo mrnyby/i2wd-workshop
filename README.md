@@ -31,11 +31,11 @@ This workshop will teach basic web development skills and is intended for those 
   * [Transforms](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#transforms)
   * [Flexbox](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#flexbox)
   * [At-Rules](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#at-rules)
-* JavaScript Basics
-  * Variables
-  * Functions
-  * Debugging
-  * Control Flow
+* [JavaScript Basics](https://github.com/mrnyby/iwd-workshop/blob/master/js-basics.md)
+  * [Variables and Types](https://github.com/mrnyby/iwd-workshop/blob/master/js-basics.md#variables-and-types)
+  * [Operators](https://github.com/mrnyby/iwd-workshop/blob/master/js-basics.md#operators)
+  * [Control Flow](https://github.com/mrnyby/iwd-workshop/blob/master/js-basics.md#control-flow)
+  * [Functions](https://github.com/mrnyby/iwd-workshop/blob/master/js-basics.md#functions)
 * JavaScript and the Document Object Model (DOM)
   * Querying and Modifying the DOM
   * Events
