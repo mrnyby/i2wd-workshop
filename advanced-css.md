@@ -114,6 +114,71 @@ CSS transforms can modify the shape and position of elements without affecting t
 }
 ```
 
+## At-Rules
+
+### Font Faces
+
+`@font-face` rules lets developers define custom font families by providing a font name and the associated font files. By providing multiple font formats and files, developers can ensure their font will work across multiple browsers.
+
+```css
+@font-face {
+  font-family: 'Comedic Sans';
+  src: url('comedic-sans.woff2') format('woff2'),
+       url('comedic-sans.woff') format('woff');
+}
+```
+
+### Keyframes
+
+Keyframes are similar to transitions, but are better suited for certain types of animations. Unlike transitions, `@keyframes` rules grant the ability to animate an element at all times rather than when the element is active or being hovered over.
+
+```html
+<div class="advertisement">Hey! Look at me!</div>
+```
+
+```css
+@keyframes annoying {
+  0%, 100% {
+    color: red;
+    font-size: 20px;
+  }
+
+  33% {
+    color: green;
+    font-size: 30px;
+  }
+
+  66% {
+    color: blue;
+    font-size: 30px;
+  }
+}
+
+.advertisement {
+  animation: annoying 1s infinite;
+  font-weight: bold;
+}
+```
+
+### Media Queries
+
+CSS media queries are useful for applying different styles depending on the device that's viewing a site. These allow us to specify media types like `screen` and `print` and conditionally apply some CSS rules based on the device's properties.
+
+```css
+button {
+  font-size: 24px;
+}
+
+/* On screens that are 800px or narrower, make the button font smaller. */
+@media screen and (max-width: 800px) {
+  button {
+    font-size: 16px;
+  }
+}
+```
+
+This example tells the browser to give all of our buttons `font-size: 24px;`. Our `@media` query describes a more specific rule that states, "If the device viewing our page has a screen and the window is less than 800px wide, give our buttons a font size of 16px."
+
 ## Flexbox
 
 Flexbox is a relatively new CSS feature that is great for responsive designs. It makes scaling, ordering, and aligning web page components a breeze.
@@ -182,68 +247,3 @@ The `flex-flow` property can be used to define both `flex-direction` and `flex-w
   flex-flow: row-reverse wrap;
 }
 ```
-
-## At-Rules
-
-### Font Faces
-
-`@font-face` rules lets developers define custom font families by providing a font name and the associated font files. By providing multiple font formats and files, developers can ensure their font will work across multiple browsers.
-
-```css
-@font-face {
-  font-family: 'Comedic Sans';
-  src: url('comedic-sans.woff2') format('woff2'),
-       url('comedic-sans.woff') format('woff');
-}
-```
-
-### Keyframes
-
-Keyframes are similar to transitions, but are better suited for certain types of animations. Unlike transitions, `@keyframes` rules grant the ability to animate an element at all times rather than when the element is active or being hovered over.
-
-```html
-<div class="advertisement">Hey! Look at me!</div>
-```
-
-```css
-@keyframes annoying {
-  0%, 100% {
-    color: red;
-    font-size: 20px;
-  }
-
-  33% {
-    color: green;
-    font-size: 30px;
-  }
-
-  66% {
-    color: blue;
-    font-size: 30px;
-  }
-}
-
-.advertisement {
-  animation: annoying 1s infinite;
-  font-weight: bold;
-}
-```
-
-### Media Queries
-
-CSS media queries are useful for applying different styles depending on the device that's viewing a site. These allow us to specify media types like `screen` and `print` and conditionally apply some CSS rules based on the device's properties.
-
-```css
-button {
-  font-size: 24px;
-}
-
-/* On screens that are 800px or narrower, make the button font smaller. */
-@media screen and (max-width: 800px) {
-  button {
-    font-size: 16px;
-  }
-}
-```
-
-This example tells the browser to give all of our buttons `font-size: 24px;`. Our `@media` query describes a more specific rule that states, "If the device viewing our page has a screen and the window is less than 800px wide, give our buttons a font size of 16px."
