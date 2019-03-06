@@ -69,7 +69,7 @@ var firstAvenger = avengers[0];       // 'Captain America'
 
 ### Objects
 
-Objects are variables that store __key-value pairs__. They are extremely versatile and used to group related data, and there are similar data structures in most other languages. You can think of objects like arrays, but instead of being __numerically indexed__ objects are __indexed by strings__ (or __keys__).
+Objects are variables that store __key-value pairs__. They are extremely versatile and used to group related data. You can think of objects like arrays, but instead of being __numerically indexed__ objects are __indexed by strings__ (or __keys__). We can access keys in an object using `[]` just like we did with arrays, or we can use the `.` operator.
 
 ```js
 var book = {
