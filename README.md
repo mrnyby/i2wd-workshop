@@ -1,6 +1,6 @@
 # Introduction to Web Development
 
-This workshop will teach basic web development skills and is intended for those who have little to no programming experience.
+This repository stores notes and examples to supplement the Introduction to Web Development workshop. This workshop will teach attendees how to create a basic web site using HTML, CSS, and JavaScript and is geared towards those with little to no programming experience.
 
 ## Table of Contents
 
