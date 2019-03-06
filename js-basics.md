@@ -87,7 +87,7 @@ var bookPublicationYear = book[key];
 
 ## Operators
 
-After declaring variables, we can change the values stored in them using __operators__. We've already put `=` (the __assignment operator__) to use above.
+After declaring variables, we can change the values stored in them using __operators__. We've already put `=` ( __assignment operator__), `[]` (__array access operator__), and `.` (__property access operator__) to use above.
 
 ### Mathematical Operators
 
@@ -219,7 +219,7 @@ while (i < browsers.length) {
 
 ## Functions
 
-Functions are used to break your programs into digestible chunks. Most functions take some set of variables as input and return another variable. Like in any language, functions are used to __abstract__ away complex code. For example, the `reverse()` function that called on an array let us reverse the order or an array without needing to understand how that really works.
+Functions are used to break your programs into digestible chunks. Most functions take some set of variables as input and return another variable. Like in any language, functions are used to __abstract__ away complex code. For example, the `reverse()` function that called on an array let us reverse the order or an array without needing to understand the inner workings.
 
 ```js
 function add(x, y) {
