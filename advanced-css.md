@@ -5,12 +5,12 @@ Modern CSS is extremely powerful. Through its more advanced features, CSS makes 
 ## Specificity
 
 ```html
-<button>Boring</button>
-<button class="primary">Save</button>
+<button class="button">Boring</button>
+<button class="button primary">Save</button>
 ```
 
 ```css
-button {
+.button {
   background-color: #EEEEEE;
   border: none;
   border-radius: 2px;
@@ -19,7 +19,7 @@ button {
   text-transform: uppercase;
 }
 
-button.primary {
+.button.primary {
   background-color: rgba(46, 204, 113, .8);
   color: white;
 }
