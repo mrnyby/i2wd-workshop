@@ -2,21 +2,6 @@
 
 Modern CSS is extremely powerful. Through its more advanced features, CSS makes otherwise static pages more dynamic. It can give users feedback when they are filling out forms, animate elements, and handle complex layouts.
 
-## Advanced Selectors
-
-| Selector                 | Example             | Example Description                                                           |
-| ------------------------ | ------------------- | ----------------------------------------------------------------------------- |
-| `element element`        | `div p`             | Selects all `<p>` elements inside `<div>` elements                            |
-| `element > element`      | `div > p`           | Selects all `<p>` elements where the parent is a `<div>` element              |
-| `element + element`      | `div + p`           | Selects all `<p>` elements that are placed immediately after `<div>` elements |
-| `element ~ element`      | `p ~ ul`            | Selects all `<ul>` elements that are preceded by a `<p>` element              |
-| `[attribute]`            | `[target]`          | Selects all elements with the `target` attribute                              |
-| `[attribute = value]`    | `[target = _blank]` | Selects all elements with the `target` attribute having a value of `_blank`   |
-| `::after` and `::before` | `p::after`          | Insert something after the content in each `<p>` element                      |
-| `:disabled`              | `input:disabled`    | Selects every disabled `<input>` element                                      |
-| `:hover`                 | `button:hover`      | Selects `<button>` elements that are being moused over                        |
-| `:valid`  and `:invalid` | `input:invalid`     | Selects all `<input>` elements with an invalid value                          |
-
 ## Specificity
 
 ```html
@@ -49,6 +34,21 @@ The `button.primary` rule defines what primary buttons should look like. Primary
 This example introduces the important CSS concepts of __inheritance__ and __specificity__. When two (or more) rules can apply to an element, both get applied. When properties in those rules do not conflict, the more specific rule __inherits__ properties from the less specific rule. When properties in those rules conflict, the properties defined in the more __specific__ rule win out.
 
 Looking at the save button, notice that the `button` rule says that the button should have `background-color: #EEEEEE` and `border-radius: 2px`. The more specific `button.primary` rule also applies to the save button. Since this rule is more specific, the save button gets `background-color: rgba(46, 204, 113, .8)`. Since `button.primary` doesn't define its own `border-radius`, it __inherits__ `border-radius: 2px` from the `button` rule.
+
+## Advanced Selectors
+
+| Selector                 | Example             | Example Description                                                           |
+| ------------------------ | ------------------- | ----------------------------------------------------------------------------- |
+| `element element`        | `div p`             | Selects all `<p>` elements inside `<div>` elements                            |
+| `element > element`      | `div > p`           | Selects all `<p>` elements where the parent is a `<div>` element              |
+| `element + element`      | `div + p`           | Selects all `<p>` elements that are placed immediately after `<div>` elements |
+| `element ~ element`      | `p ~ ul`            | Selects all `<ul>` elements that are preceded by a `<p>` element              |
+| `[attribute]`            | `[target]`          | Selects all elements with the `target` attribute                              |
+| `[attribute = value]`    | `[target = _blank]` | Selects all elements with the `target` attribute having a value of `_blank`   |
+| `::after` and `::before` | `p::after`          | Insert something after the content in each `<p>` element                      |
+| `:disabled`              | `input:disabled`    | Selects every disabled `<input>` element                                      |
+| `:hover`                 | `button:hover`      | Selects `<button>` elements that are being moused over                        |
+| `:valid`  and `:invalid` | `input:invalid`     | Selects all `<input>` elements with an invalid value                          |
 
 ## Transitions
 
