@@ -219,7 +219,7 @@ Notice that each of the three child divs have equal height and that they are onl
 
 ### Flex Direction
 
-Although the example above doesn't specify this, our flex container has a default `flex-direction` of `row`. We can tell our flex container to order its contents in a different why by specifying a `flex-direction` of `column`, `row-reverse`, or `column-reverse`.
+Although the example above doesn't specify this, our flex container has a default `flex-direction` of `row`. We can tell our flex container to order its contents in a different way by specifying a `flex-direction` of `column`, `row-reverse`, or `column-reverse`.
 
 ```css
 .flex-container {
