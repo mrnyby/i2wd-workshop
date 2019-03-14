@@ -45,7 +45,7 @@ var user = { firstName: 'Ghee', lastName: 'Buttersnaps', age: 32 };
 
 // Functions
 var fun = function () {
-  return 'More on functions in just a bit!';
+  return 'More on functions in a bit!';
 };
 ```
 
