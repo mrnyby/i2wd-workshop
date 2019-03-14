@@ -12,7 +12,7 @@ Unlike HTML and CSS, JavaScript is a __programming language__. Like many other p
 </head>
 ```
 
-Just like we did with CSS files, we can bring include JavaScript files on our web page by adding a link to our HTML document's header.
+Just like we did with CSS files, we can include JavaScript files on our web page by adding to our HTML document's header. To bring in CSS, we used the `<link>` element. To bring in JS files, we use the `<script>` element.
 
 ## Variables and Types
 
@@ -54,8 +54,7 @@ var fun = function () {
 Arrays store __collections__ or __lists__ of data and are __numerically indexed__. In other words, array elements are each assigned some number, starting from 0.
 
 ```js
-var superheroes = ['Spiderman', 'Iron Man', 'Thor', 'Captain Marvel'];
-var mostHandsome = superheroes[2];  // 'Thor'
+var computerScientists = ['Alan Turing', 'Grace Hopper', 'Tim Berners-Lee'];
 ```
 
 Each array has a `length` __property__ as well as several __functions__.
@@ -69,7 +68,7 @@ var firstAvenger = avengers[0];       // 'Captain America'
 
 ### Objects
 
-Objects are variables that store __key-value pairs__. They are extremely versatile and used to group related data. You can think of objects like arrays, but instead of being __numerically indexed__ objects are __indexed by strings__ (or __keys__). We can access keys in an object using `[]` just like we did with arrays, or we can use the `.` operator.
+Objects are variables that store __key-value pairs__. They are extremely versatile and used to group related data. You can think of objects like arrays, but instead of being __numerically indexed__ objects are __indexed by strings__ (or __keys__). We can access keys in an object using `[]` just like we did with arrays or we can use the `.` operator.
 
 ```js
 var book = {
