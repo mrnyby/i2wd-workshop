@@ -116,18 +116,6 @@ CSS transforms can modify the shape and position of elements without affecting t
 
 ## At-Rules
 
-### Font Faces
-
-`@font-face` rules lets developers define custom font families by providing a font name and the associated font files. By providing multiple font formats and files, developers can ensure their font will work across multiple browsers.
-
-```css
-@font-face {
-  font-family: 'Comedic Sans';
-  src: url('comedic-sans.woff2') format('woff2'),
-       url('comedic-sans.woff') format('woff');
-}
-```
-
 ### Keyframes
 
 Keyframes are similar to transitions, but are better suited for certain types of animations. Unlike transitions, `@keyframes` rules grant the ability to animate an element at all times rather than when the element is active or being hovered over.
@@ -157,6 +145,18 @@ Keyframes are similar to transitions, but are better suited for certain types of
 .advertisement {
   animation: annoying 1s infinite;
   font-weight: bold;
+}
+```
+
+### Font Faces
+
+`@font-face` rules lets developers define custom font families by providing a font name and the associated font files. By providing multiple font formats and files, developers can ensure their font will work across multiple browsers.
+
+```css
+@font-face {
+  font-family: 'Comedic Sans';
+  src: url('comedic-sans.woff2') format('woff2'),
+       url('comedic-sans.woff') format('woff');
 }
 ```
 
