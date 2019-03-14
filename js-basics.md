@@ -93,7 +93,7 @@ After declaring variables, we can change the values stored in them using __opera
 ```js
 // +
 var sum = 2 + 3;                   // 5
-var sum = sum + 1                  // 6
+var sum = sum + 1;                 // 6
 var hello = 'Hello, ' + 'world.';  // 'Hello, world.'
 
 // -
@@ -150,6 +150,7 @@ Like most __dynamically typed__ languages, JavaScript will try to convert betwee
 1 + '2'                  // '12'
 1 + 2 + '3'              // '33'
 'Hello' - 'world'        // NaN (Not a number)
+[1, 2, 3] + [4, 5, 6]    // '1,2,34,5,6'
 true === 'true'          // false
 4 === '4'                // false
 [1, 2, 3] === [1, 2, 3]  // false
@@ -157,7 +158,7 @@ true === 'true'          // false
 
 4 == '4'                 // true
 true == []               // true
-true == ![]              // true... wait what?
+[] == ![]                // true
 ```
 
 Confused? The `===` operator checks for equal __value__ as well as equal __type__, so is often safer to use. `==` only checks for equal value __after converting types__.
