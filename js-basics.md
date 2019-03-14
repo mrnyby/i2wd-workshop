@@ -1,6 +1,6 @@
 # JavaScript Basics
 
-Unlike HTML and CSS, JavaScript is a __programming language__. Like many other programming languages, JavaScript programs can theoretically do any possible computational task. JavaScript is one of the most prevalent programming languages in modern software development.
+Unlike HTML and CSS, JavaScript is a __programming language__. Like many other programming languages, JavaScript programs can theoretically do any possible computational task. JavaScript is one of the most prevalent languages in modern software development.
 
 ```html
 <head>
