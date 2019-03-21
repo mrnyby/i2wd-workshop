@@ -36,10 +36,6 @@ This repository stores notes and examples to supplement the Introduction to Web 
   * [Operators](https://github.com/mrnyby/iwd-workshop/blob/master/js-basics.md#operators)
   * [Control Flow](https://github.com/mrnyby/iwd-workshop/blob/master/js-basics.md#control-flow)
   * [Functions](https://github.com/mrnyby/iwd-workshop/blob/master/js-basics.md#functions)
-* JavaScript and the Document Object Model (DOM)
-  * Querying and Modifying the DOM
-  * Events
-  * Asynchronous JavaScript
-* Advanced JavaScript
-  * Functional Operators
-  * Frameworks
+* [JavaScript and the DOM](https://github.com/mrnyby/iwd-workshop/blob/master/javascript-and-the-dom.md)
+  * [Querying and Modifying the DOM](https://github.com/mrnyby/iwd-workshop/blob/master/javascript-and-the-dom.md#querying-and-modifying-the-dom)
+  * [Events](https://github.com/mrnyby/iwd-workshop/blob/master/javascript-and-the-dom.md#events)
