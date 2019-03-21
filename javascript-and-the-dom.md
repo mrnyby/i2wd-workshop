@@ -40,9 +40,12 @@ We can select elements from the DOM using the `document` object. `document` is a
 ```
 
 ```js
+/**
+ * window.onload gets executed as soon as the page is finished loading
+ */
 window.onload = function() {
   var timestampElement = document.querySelector('#timestamp');
-  timestampElement.textContent = 'This site loaded at ' + getTimestamp();
+  timestampElement.textContent = 'This site loaded on ' + getTimestamp();
 }
 
 var months = [
@@ -60,16 +63,19 @@ var months = [
   'December',
 ]
 
+/**
+ * Gets the current month, day, and year as a string
+ *
+ * EXAMPLE:
+ * 'January 1, 1970'
+ */
 function getTimestamp() {
   var now = new Date();
-  var hours = now.getHours();
-  var minutes = now.getMinutes();
-  var seconds = now.getSeconds();
   var month = months[now.getMonth()];
   var day = now.getDate();
   var year = now.getFullYear();
 
-  return hours + ':' + minutes + ':' + seconds + ' on ' + month + ' ' + day + ', ' + year;
+  return month + ' ' + day + ', ' + year;
 }
 ```
 
