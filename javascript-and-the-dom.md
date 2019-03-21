@@ -19,11 +19,11 @@ The [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model)
 </html>
 
 <!--
-              <html>
+              <html>           <-- Root element
                /  \
               /    \
              /      \
-        <head>      <body>
+        <head>      <body>     <-- Children of the <html> element
         /\              /\
        /  \            /  \
       /    \          /    \
