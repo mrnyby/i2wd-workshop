@@ -57,7 +57,7 @@ Arrays store __collections__ or __lists__ of data and are __numerically indexed_
 var computerScientists = ['Alan Turing', 'Grace Hopper', 'Tim Berners-Lee'];
 ```
 
-Each array has a `length` __property__ as well as several __functions__.
+Each array has a `length` __property__ as well as several __methods__.
 
 ```js
 var avengers = ['Spiderman', 'Iron Man', 'Thor', 'Captain America'];
