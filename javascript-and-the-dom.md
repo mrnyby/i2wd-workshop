@@ -79,4 +79,6 @@ function getTimestamp() {
 }
 ```
 
+`document.querySelector()` returns the __first__ element matching the given CSS selector. `document.querySelectorAll()` returns an __array__ of __all elements__ that match the given CSS selector.
+
 ## Events
