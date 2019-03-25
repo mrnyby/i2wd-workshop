@@ -163,6 +163,20 @@ true == []               // true
 
 Confused? The `===` operator checks for equal __value__ as well as equal __type__, so is often safer to use. `==` only checks for equal value __after converting types__.
 
+## Functions
+
+Functions are used to break your programs into digestible chunks. Most functions take some set of variables as input and return another variable. Like in any language, functions are used to __abstract__ away complex code. For example, the `reverse()` function that called on an array let us reverse the order or an array without needing to understand the inner workings.
+
+```js
+function add(x, y) {
+  return x + y;
+}
+
+var sum = add(2, 3);  // 5
+```
+
+Above, we declare a new function named `add`. It takes in two __arguments__ or __parameters__ which we've named `x`, and `y`, then returns the sum of `x` and `y` to whatever code __calls__ or __executes__ the `add` function. We call our new `add` function by typing its name followed by the list of __parameters__ that we want the `add` function to use which are surrounded by parens.
+
 ## Control Flow
 
 ### If and Else
@@ -216,17 +230,3 @@ while (i < browsers.length) {
   i++;
 }
 ```
-
-## Functions
-
-Functions are used to break your programs into digestible chunks. Most functions take some set of variables as input and return another variable. Like in any language, functions are used to __abstract__ away complex code. For example, the `reverse()` function that called on an array let us reverse the order or an array without needing to understand the inner workings.
-
-```js
-function add(x, y) {
-  return x + y;
-}
-
-var sum = add(2, 3);  // 5
-```
-
-Above, we declare a new function named `add`. It takes in two __arguments__ or __parameters__ which we've named `x`, and `y`, then returns the sum of `x` and `y` to whatever code __calls__ or __executes__ the `add` function. We call our new `add` function by typing its name followed by the list of __parameters__ that we want the `add` function to use which are surrounded by parens.
