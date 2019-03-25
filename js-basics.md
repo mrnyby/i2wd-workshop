@@ -226,7 +226,7 @@ for (var i = 0; i < browsers.length; i++) {
 ```js
 var i = 0;
 while (i < browsers.length) {
-  console.log(browsers[i];
+  console.log(browsers[i]);
   i++;
 }
 ```
