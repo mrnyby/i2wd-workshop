@@ -70,7 +70,7 @@ There are a huge variety of __events__ that take place as a user interacts with 
 * The value of an input changes
 * An element is clicked
 
-We can register __event listeners__ on both the __window__ or on __individual elements__.
+We can register __event listeners__ on both the __window__ or on __individual elements__. These are functions that get executed whenever an event occurs.
 
 ```html
 <button id="button">Click to Count!</button>
