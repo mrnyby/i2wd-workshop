@@ -80,12 +80,15 @@ We can register __event listeners__ on both the __window__ or on __individual el
 ```
 
 ```js
-// Log a message as soon as the page loads
 window.addEventListener('load', function() {
+  // Log an event as soon as the page is loaded
   console.log('The page is loaded!');
 
   var nTimesClicked = 0;
+  // If we try to find the button before the page has loaded, it might not be on the page yet
   document.querySelector('#button').addEventListener('click', function() {
+    console.log('Clicked!');
+
     nTimesClicked++;
     document.querySelector('#counter').textContent = nTimesClicked;
   });
