@@ -165,7 +165,7 @@ Confused? The `===` operator checks for equal __value__ as well as equal __type_
 
 ## Functions
 
-Functions are used to break your programs into digestible chunks. Most functions take some set of variables as input and return another variable. Like in any language, functions are used to __abstract__ away complex code. For example, the `reverse()` function that called on an array let us reverse the order or an array without needing to understand the inner workings.
+Functions are used to break your programs into digestible chunks. Most functions take some set of variables as input and return another variable. Like in any language, functions are used to __abstract__ away complex code. For example, the `reverse()` function on any array lets us reverse the order of an array without needing to understand the code the algorithm used to accomplish the reversal.
 
 ```js
 function add(x, y) {
@@ -175,7 +175,7 @@ function add(x, y) {
 var sum = add(2, 3);  // 5
 ```
 
-Above, we declare a new function named `add`. It takes in two __arguments__ or __parameters__ which we've named `x`, and `y`, then returns the sum of `x` and `y` to whatever code __calls__ or __executes__ the `add` function. We call our new `add` function by typing its name followed by the list of __parameters__ that we want the `add` function to use which are surrounded by parens.
+Above, we declare a new function named `add`. It takes in two __parameters__ which we've named `x`, and `y`, then returns the sum of `x` and `y` to whatever code __executes__ the `add` function. We call our new `add` function by typing its name followed by the list of __arguments__ that we want the `add` function to use which are surrounded by parens.
 
 ## Control Flow
 
