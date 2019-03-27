@@ -182,15 +182,17 @@ Above, we declare a new function named `add`. It takes in two __parameters__ whi
 ### If and Else
 
 ```js
-var animal = 'dog';
-var sound;
-
-if (animal === 'cat') {
-  sound = 'meow';
-} else if (animal === 'dog') {
-  sound = 'woof';
-} else {
-  sound = 'moo?';
+/**
+ * Returns the sound that the given animal makes
+ */
+function makeSound(animal) {
+  if (animal === 'cat') {
+    return 'meow';
+  } else if (animal === 'dog') {
+    return 'woof';
+  } else {
+    return 'moo?';
+  }
 }
 ```
 
@@ -199,16 +201,21 @@ if (animal === 'cat') {
 While loops run some block of code repeatedly until the given __condition__ evaluates to false.
 
 ```js
-while (true) {
+while (true) {  // Always true, so this will run until the tab is closed
   // Turn computer into a space heater
 }
 ```
 
 ```js
-var i = 0;
-while (i < 10) {
-  console.log(i);
-  i++;
+/**
+ * Counts to the given number
+ */
+function count(n) {
+  var i = 1;
+  while (i <= n) {
+    console.log(i);
+    i++;
+  }
 }
 ```
 
