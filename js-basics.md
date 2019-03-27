@@ -86,7 +86,7 @@ var bookPublicationYear = book[key];
 
 ## Operators
 
-After declaring variables, we can change the values stored in them using __operators__. We've already put `=` ( __assignment operator__), `[]` (__array access operator__), and `.` (__property access operator__) to use above.
+After declaring variables, we can change their values and evaluate expressions using __operators__. We've already put `=` ( __assignment operator__), `[]` (__array access operator__), and `.` (__property access operator__) to use above.
 
 ### Mathematical Operators
 
