@@ -35,50 +35,59 @@ The [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model)
 
 We can select elements from the DOM using the `document` object. `document` is a global variable made available to JavaScript code by the web browser. This object has [many properties and methods](https://developer.mozilla.org/en-US/docs/Web/API/Document). The `querySelector()` method can be used to get JavaScript variables representing the elements on your web page. These variables can be modified, in turn changing the page after it has loaded.
 
+Try opening the below HTML file in your browser, open the JavaScript console in your browser's development tools, and use `document.querySelector()` to select elements on the page. Try selecting the following:
+
+* The document's title
+* The first header on the page
+* A list of all headers on the page (hint: use `document.querySelectorAll()`)
+* The button on the page
+
 ```html
-<span id="timestamp"></span>
-```
+<!DOCTYPE html>
+<html>
 
-```js
-/**
- * window.onload gets executed as soon as the page is finished loading
- */
-window.onload = function() {
-  var timestampElement = document.querySelector('#timestamp');
-  timestampElement.textContent = 'This site loaded on ' + getTimestamp();
-}
+  <head>
+    <title>Select Me!</title>
+    <meta charset="UTF-8">
+  </head>
 
-var months = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
-]
+  <body>
+    <h1 class="header">You can select anything.</h1>
+    <h1>Like seriously anything.</h1>
+    <button id="big-button">All of it.</button>
+  </body>
 
-/**
- * Gets the current month, day, and year as a string
- *
- * EXAMPLE:
- * 'January 1, 1970'
- */
-function getTimestamp() {
-  var now = new Date();
-  var month = months[now.getMonth()];
-  var day = now.getDate();
-  var year = now.getFullYear();
-
-  return month + ' ' + day + ', ' + year;
-}
+</html>
 ```
 
 `document.querySelector()` returns the __first__ element matching the given CSS selector. `document.querySelectorAll()` returns an __array__ of __all elements__ that match the given CSS selector.
 
 ## Events
+
+There are a huge variety of __events__ that take place as a user interacts with a web page, and JavaScript lets us listen for these events and execute some code in response to them taking place. For example, different events fire when:
+
+* The page finishes loading
+* The value of an input changes
+* An element is clicked
+
+We can register __event listeners__ on both the __window__ or on __individual elements__.
+
+```html
+<button id="button">Click to Count!</button>
+<p>
+  You've clicked that button <span id="counter">0</span> times.
+</p>
+```
+
+```js
+// Log a message as soon as the page loads
+window.addEventListener('load', function() {
+  console.log('The page is loaded!');
+
+  var nTimesClicked = 0;
+  document.querySelector('#button').addEventListener('click', function() {
+    nTimesClicked++;
+    document.querySelector('#counter').textContent = nTimesClicked;
+  });
+});
+```
