@@ -61,6 +61,7 @@ Each array has a `length` __property__ as well as several __methods__.
 
 ```js
 var avengers = ['Spiderman', 'Iron Man', 'Thor', 'Captain America'];
+avengers[0];                     // 'Spiderman'
 avengers.length;                 // 4
 avengers.reverse();              // Reverse the order of elements in the array
 var firstAvenger = avengers[0];  // 'Captain America'
