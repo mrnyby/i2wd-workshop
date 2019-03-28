@@ -122,7 +122,7 @@ i *= 4;                            // i = i * 4;
 ```js
 // ===
 1 === 1                       // true
-2 + 2 === 5                   // false
+2 + 2 !== 4                   // false
 'Hello' === 'Hello'           // true
 
 // >, <
