@@ -2,6 +2,10 @@
 
 This repository stores notes and examples to supplement the Introduction to Web Development workshop. This workshop will teach attendees how to create a basic web site using HTML, CSS, and JavaScript and is geared towards those with little to no programming experience.
 
+## Demo Site
+
+During this workshop, we've been building a site demonstrating a custom, Bootstrap-like library. You access my version of this demo site [here](https://github.com/mrnyby/shoelace).
+
 ## Table of Contents
 
 * [Introduction](https://github.com/mrnyby/iwd-workshop/blob/master/introduction.md)
