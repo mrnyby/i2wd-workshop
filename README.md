@@ -4,7 +4,7 @@ This repository stores notes and examples to supplement the Introduction to Web 
 
 ## Demo Site
 
-During this workshop, we've been building a site demonstrating a custom, Bootstrap-like library. You access my version of this demo site [here](https://github.com/mrnyby/shoelace).
+During this workshop, we've been building a site demonstrating a custom, Bootstrap-like library. You can access my version of this demo site [here](https://github.com/mrnyby/shoelace), but I encourage you to tweak this and make it your own!
 
 ## Table of Contents
 
