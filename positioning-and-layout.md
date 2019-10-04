@@ -68,3 +68,71 @@ Using `position: absolute` let's us place an element on the page regardless of w
 
 ![Borders, margins, and padding](https://mdn.mozillademos.org/files/9443/box-model.png)
 
+## Flexbox
+
+Flexbox is a relatively new CSS feature that is great for responsive designs. It makes scaling, ordering, and aligning web page components a breeze.
+
+```html
+<div class="flex-container">
+  <div class="red">Short</div>
+  <div class="green">Small</div>
+  <div class="blue">
+    But<br>
+    I<br>
+    am<br>
+    extra<br>
+    tall
+  </div>
+</div>
+```
+
+```css
+.flex-container {
+  display: flex;
+}
+
+.red {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.green {
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+.blue {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+```
+
+Notice that each of the three child divs have equal height and that they are only as tall as the tallest of the three divs. Without flex, layouts like this can be tricky to achieve.
+
+### Flex Direction
+
+Although the example above doesn't specify this, our flex container has a default `flex-direction` of `row`. We can tell our flex container to order its contents in a different way by specifying a `flex-direction` of `column`, `row-reverse`, or `column-reverse`.
+
+```css
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+```
+
+### Flex Wrapping
+
+In many grid-based designs seen in apps like Spotify or Netflix, there is a list of items that rearrange themselves as the screen grows and shrinks. This can be achieved with the `flex-wrap` property.
+
+```css
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+```
+
+The `flex-flow` property can be used to define both `flex-direction` and `flex-wrap` in a single property.
+
+```css
+.flex-container {
+  display: flex;
+  flex-flow: row-reverse wrap;
+}
+```
