@@ -51,14 +51,14 @@ The `float` property can be used to remove an element from the flow of the page.
 Using `position: relative` allows us to adjust the position that the element otherwise would have had. In the above example, an element with `class="indent"` will appear exactly where it would have before, but shifted slightly to the right.
 
 ```css
-.bottom-right {
+.top-right {
   position: absolute;
-  bottom: 20px;
+  top: 20px
   right: 20px;
 }
 ```
 
-Using `position: absolute` let's us place an element on the page regardless of where it or any other elements might be. The above example would position an element exactly 20 pixels from the bottom right of the window.
+Using `position: absolute` let's us place an element anywhere within it's parent element. If we applied this class to an element directly under the `<body>` element, it would appear exactly 20 pixels from the top right of the page.
 
 ### Borders, Margins, and Padding
 
