@@ -1,10 +1,10 @@
 # Introduction to Web Development
 
-This repository stores notes and examples to supplement the Introduction to Web Development workshop. This workshop will teach attendees how to create a basic web site using HTML, CSS, and JavaScript and is geared towards those with little to no programming experience.
+This repository stores notes and examples to supplement the Introduction to Web Development workshop. This workshop will teach attendees how to create a basic web site using HTML and CSS and is geared towards those with little to no programming experience.
 
 ## Demo Site
 
-During this workshop, we've been building a site demonstrating a custom, Bootstrap-like library. You can access my version of this demo site [here](https://github.com/mrnyby/shoelace), but I encourage you to tweak this and make it your own!
+During this workshop, we've been building a site demonstrating what we've learned. You can access my version of this demo site [here](https://github.com/mrnyby/iwd-workshop/tree/master/demo), but I encourage you to tweak this and make it your own!
 
 ## Table of Contents
 
@@ -17,6 +17,9 @@ During this workshop, we've been building a site demonstrating a custom, Bootstr
   * [Common Elements](https://github.com/mrnyby/iwd-workshop/blob/master/html-basics.md#common-elements)
   * [Attributes](https://github.com/mrnyby/iwd-workshop/blob/master/html-basics.md#attributes)
   * [Lists](https://github.com/mrnyby/iwd-workshop/blob/master/html-basics.md#lists)
+  * [Inputs](https://github.com/mrnyby/iwd-workshop/blob/master/html-basics.md#inputs)
+  * [Forms](https://github.com/mrnyby/iwd-workshop/blob/master/html-basics.md#forms)
+  * [Embedded Content](https://github.com/mrnyby/iwd-workshop/blob/master/html.md#embedded-content)
   * [Tables](https://github.com/mrnyby/iwd-workshop/blob/master/html-basics.md#tables)
 * [CSS Basics](https://github.com/mrnyby/iwd-workshop/blob/master/css-basics.md)
   * [CSS Files](https://github.com/mrnyby/iwd-workshop/blob/master/css-basics.md#css-files)
@@ -24,10 +27,6 @@ During this workshop, we've been building a site demonstrating a custom, Bootstr
   * [Selectors](https://github.com/mrnyby/iwd-workshop/blob/master/css-basics.md#selectors)
   * [Layout](https://github.com/mrnyby/iwd-workshop/blob/master/css-basics.md#layout)
   * [Shorthand Properties](https://github.com/mrnyby/iwd-workshop/blob/master/css-basics.md#shorthand-properties)
-* [Advanced HTML](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-html.md)
-  * [Inputs](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-html.md#inputs)
-  * [Forms](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-html.md#forms)
-  * [Embedded Content](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-html.md#embedded-content)
 * [Advanced CSS](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md)
   * [Advanced Selectors](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#advanced-selectors)
   * [Specificity](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#specificity)
