@@ -1,6 +1,6 @@
 # Introduction to Web Development
 
-This repository stores notes and examples to supplement the Introduction to Web Development workshop. This workshop will teach attendees how to create a basic web site using HTML and CSS and is geared towards those with little to no programming experience.
+This repository stores notes and examples to supplement my Introduction to Web Development workshop. This workshop will teach attendees how to create a basic web site using HTML and CSS and is geared towards those with little to no programming experience.
 
 ## Demo Site
 
