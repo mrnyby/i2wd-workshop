@@ -1,7 +1,5 @@
 # Introduction
 
-![https://xkcd.com/934/](https://imgs.xkcd.com/comics/mac_pc.png "It's fun to watch browsers fumblingly recapitulate the history of window management. Someday we'll have xmonad as a Firefox extension.")
-
 ## Different Languages Do Different Things
 
 * [__HTML__ (Hypertext Markup Language)](https://en.wikipedia.org/wiki/HTML) describes the structure of a webpage. It can tell the browser that an image should be displayed and be followed by a paragraph of text.
