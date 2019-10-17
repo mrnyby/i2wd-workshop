@@ -70,7 +70,7 @@ Using `position: absolute` let's us place an element anywhere within it's parent
 
 ## Flexbox
 
-Flexbox is a relatively new CSS feature that is great for responsive designs. It makes scaling, ordering, and aligning web page components a breeze.
+[Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) is a relatively new CSS feature that is great for responsive designs. It makes scaling, ordering, and aligning web page components a breeze.
 
 ```html
 <div class="flex-container">
@@ -136,3 +136,27 @@ The `flex-flow` property can be used to define both `flex-direction` and `flex-w
   flex-flow: row-reverse wrap;
 }
 ```
+
+## Grid
+
+[CSS grids](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) are an even newer CSS feature than flex. Although flex is perfectly capable of creating responsive grid layouts, using CSS grids is often more straightforward and easier to read.
+
+```css
+.grid {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(4, 1fr);
+}
+```
+
+```html
+<div class="grid>
+  <div>One</div>
+  <div>Two</div>
+  <div>Three</div>
+  ...
+  <div>Forty-two</div>
+</div>
+```
+
+This example creates an auto-growing grid layout with four equally-sized columns.
