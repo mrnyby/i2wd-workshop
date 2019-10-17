@@ -137,7 +137,7 @@ The `flex-flow` property can be used to define both `flex-direction` and `flex-w
 }
 ```
 
-## Grid
+## Grids
 
 [CSS grids](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) are an even newer CSS feature than flex. Although flex is perfectly capable of creating responsive grid layouts, using CSS grids is often more straightforward and easier to read.
 
