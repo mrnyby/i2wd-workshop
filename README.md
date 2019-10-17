@@ -29,6 +29,7 @@ During this workshop, we've been building a site demonstrating what we've learne
 * [CSS Layouts](https://github.com/mrnyby/iwd-workshop/blob/master/css-layouts.md)
   * [Layout](https://github.com/mrnyby/iwd-workshop/blob/master/css-layouts.md#layout)
   * [Flexbox](https://github.com/mrnyby/iwd-workshop/blob/master/css-layouts.md#flexbox)
+  * [Grids](https://github.com/mrnyby/iwd-workshop/blob/master/css-layouts.md#grids)
 * [Advanced CSS](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md)
   * [Advanced Selectors](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#advanced-selectors)
   * [Specificity](https://github.com/mrnyby/iwd-workshop/blob/master/advanced-css.md#specificity)
