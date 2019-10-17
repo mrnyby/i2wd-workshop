@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6, p {
 Many CSS properties have shorthand versions. Both of the below rules give an element a `10px` top margin, a `20px` right margin, a `30px` bottom margin, and a `15px` left margin.
 
 ```css
-.so-tedious {
+.tedious {
   margin-top: 10px;
   margin-right: 20px;
   margin-bottom: 30px;
