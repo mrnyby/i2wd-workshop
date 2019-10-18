@@ -1,5 +1,43 @@
-.red-link {
+/* .red-link {
   color: red;
   font-size: 14pt;
   margin: 10px 0 0 20px;
+}
+
+a {
+  color: rgba(255, 150, 100, .5);
+}
+
+#big-red-button {
+  background: red;
+} */
+
+
+
+body {
+  margin: 0px;
+}
+
+.navbar {
+  align-items: center;
+  background: #333333;
+  color: white;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.white-font {
+  color: white;
+}
+
+.center {
+  display: block;
+  margin: 30px auto 0 auto;
+  text-align: center;
+}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
