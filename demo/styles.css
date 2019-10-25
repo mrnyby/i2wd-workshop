@@ -12,9 +12,18 @@ a {
   background: red;
 } */
 
+a {
+  color: #DD8888;
+  font-size: 30px;
+  transition: color 300ms;
+}
 
+a:hover {
+  color: #8888DD;
+}
 
 body {
+  font-family: Roboto, Arial;
   margin: 0px;
 }
 
@@ -40,4 +49,49 @@ body {
 .art-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.sidenav {
+  background: rgba(102, 102, 102, 0.8);
+  width: 150px;
+}
+
+.page-content {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+.sidenav > ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidenav > ul > li {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  display: block;
+  padding: 5px 0;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.dropdown > .dropdown-text {
+  display: none;
+}
+
+.dropdown:hover > .dropdown-text {
+  background: white;
+  position: absolute;
+  display: inherit;
+  top: 25px;
+  left: 50px;
+  padding:3px;
+  z-index: 1;
 }
