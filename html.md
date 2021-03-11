@@ -154,7 +154,7 @@ Other helpful form validation attributes include `minlength`, `maxlength`, and `
 <canvas id="draw-on-me" height="400" width="600"></canvas>
 ```
 
-Embedding multimedia in a web page is easier than ever with HTML 5. Similar to the `<img>` element, HTML has elements for video, audio, and canvases. Canvases can be drawn to by JavaScript to dynamic images like animated charts or game sprites. All of these elements allow developers to define fall-back content between tags that will be displayed to any users running old browsers.
+Embedding multimedia in a web page is easier than ever with HTML 5. Similar to the `<img>` element, HTML has elements for video, audio, and canvases. Canvases can be drawn to with JavaScript to create dynamic images like animated charts or game sprites. All of these elements allow developers to define fall-back content between tags that will be displayed to any users running old browsers.
 
 ## Tables
 
