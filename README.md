@@ -9,9 +9,9 @@ During this workshop, we've been building a site demonstrating what we've learne
 ## Table of Contents
 
 * [Introduction](https://github.com/mrnyby/iwd-workshop/blob/master/introduction.md)
-  * [Resources](https://github.com/mrnyby/iwd-workshop/blob/master/introduction.md#resources)
   * [How Do Browsers Work?](https://github.com/mrnyby/iwd-workshop/blob/master/introduction.md#how-do-browsers-work)
   * [Different Languages Do Different Things](https://github.com/mrnyby/iwd-workshop/blob/master/introduction.md#different-languages-do-different-things)
+  * [Resources](https://github.com/mrnyby/iwd-workshop/blob/master/introduction.md#resources)
 * [HTML basics](https://github.com/mrnyby/iwd-workshop/blob/master/html.md)
   * [HTML Documents](https://github.com/mrnyby/iwd-workshop/blob/master/html.md#html-documents)
   * [Common Elements](https://github.com/mrnyby/iwd-workshop/blob/master/html.md#common-elements)
