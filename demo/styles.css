@@ -1,0 +1,13 @@
+body {
+    font-family: Roboto;
+}
+
+img {
+    width: 10em;
+}
+
+.centered {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center
+}
