@@ -1,13 +1,50 @@
 body {
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
 }
 
 img {
     width: 10em;
 }
 
+#navbar > a {
+    color: white;
+    text-decoration: none;
+    transition: all linear 0.3s;
+}
+
+#navbar > a:hover {
+    color: #FF2222;
+    font-size: 2em;
+}
+
+#navbar {
+    background: #555555;
+    color: white;
+    height: 2em;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 10px;
+}
+
 .centered {
     margin: 0 auto;
     max-width: 800px;
     text-align: center;
+}
+
+.art-grid {
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.art-grid > .grid-item {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
